@@ -1,0 +1,381 @@
+equipments = {
+	armored_car_chassis = {
+		year = 1936
+		is_archetype = yes
+		is_buildable = no
+		picture = archetype_armored_car_equipment
+		
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+		type = {
+			armor
+			#motorized
+		}
+		ai_type = motorized
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 10
+		
+		#Misc Abilities
+		maximum_speed = 0
+		reliability = 1
+		build_cost_ic = 2
+		fuel_consumption = -1
+		recon = 1
+		
+		#Defensive Abilities
+		hardness = 0.8
+		armor_value = 3
+		defense = 0
+		breakthrough = 3
+		
+		#Offensive Abilities
+		ap_attack = 0
+		air_attack = 0
+		soft_attack = 0
+		hard_attack = 0
+		
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		resources = {
+			steel = 1
+		}
+		manpower = 2
+		
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_non_tracked_suspension_type
+					tank_suspension_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+					tank_armor_type
+					tank_armor_module_type_1
+					tank_hull_type_5
+					tank_hull_module_type_3
+					tank_hull_module_type_4
+					tank_gun_module_type_4
+					tank_transmission_type_2
+					tank_drive_type_2
+					tank_drive_module_type_2
+					tank_engine_type
+					tank_engine_module_type_1
+				}
+			}
+			special_type_slot_2 = special_type_slot_1
+			tank_armament_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+					tank_secondary_turret
+				}
+			}
+			tank_turret_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_secondary_turret
+					tank_armor_module_type_1
+					tank_hull_module_type_3
+					tank_hull_module_type_4
+					tank_gun_module_type_4
+				}
+			}
+			tank_armor_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_armor_type
+					tank_armor_module_type_1
+					tank_hull_type_5
+					tank_hull_module_type_3
+					tank_hull_module_type_4
+					tank_gun_module_type_4
+				}
+			}
+			tank_drivetrain_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_transmission_type_2
+					tank_drive_type_2
+					tank_drive_module_type_2
+					tank_engine_type
+					tank_engine_module_type_1
+					tank_hull_type_5
+				}
+			}
+			tank_powertrain_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_engine_type
+					tank_engine_module_type_1
+					tank_transmission_type_2
+					tank_drive_type_2
+					tank_drive_module_type_2
+					tank_hull_type_5
+				}
+			}
+			special_type_slot_3 = special_type_slot_1
+			special_type_slot_4 = special_type_slot_1
+			fixed_special_type_slot_1 = special_type_slot_1
+			fixed_special_type_slot_2 = special_type_slot_1
+		}
+		module_count_limit = {
+			category = tank_heavy_main_armament
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_medium_main_armament
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_small_main_armament
+			count < 2
+		}
+		module_count_limit = {
+			module = tank_heavy_machine_gun
+			count < 3
+		}
+		module_count_limit = {
+			category = tank_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_light_turret_type
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_armor_module_type_1
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_armor_module_type_2
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_suspension_type
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_non_tracked_suspension_type
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_transmission_type_1
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_transmission_type_2
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_drive_type_1
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_drive_type_2
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_drive_type_3
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_drive_module_type_1
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_drive_module_type_2
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_engine_type
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_engine_module_type_1
+			count < 2
+		}
+		module_count_limit = {
+			module = sloped_armor
+			count < 2
+		}	
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			module = amphibious_drive
+			count < 2
+		}
+		module_count_limit = {
+			module = wet_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = squeezebore_adaptor
+			count < 2
+		}
+		module_count_limit = {
+			module = dozer_blade
+			count < 2
+		}
+		module_count_limit = {
+			module = easy_maintenance
+			count < 2
+		}
+		module_count_limit = {
+			module = auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_hull_type_4
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_hull_type_5
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_hull_module_type_3
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_hull_module_type_4
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_gun_module_type_4
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_wheeled_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+	}
+	armored_car_chassis_0 = {
+		year = 1936
+		abbreviation = "ac0"
+		derived_variant_name = gw_armored_car_equipment
+		archetype = armored_car_chassis
+		module_slots = inherit
+		visual_level = 0
+		priority = 10
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
+			#tank_nsb_cost_upgrade
+		}
+	}
+	armored_car_chassis_1 = {
+		year = 1940
+		abbreviation = "ac1"
+		derived_variant_name = armored_car_equipment_1
+		archetype = armored_car_chassis
+		parent = armored_car_chassis_0
+		module_slots = inherit
+		visual_level = 0
+		priority = 10
+		#Misc Abilities
+		maximum_speed = 0.5
+		reliability = 1.1
+		build_cost_ic = 2
+		fuel_consumption = -1
+		recon = 1
+		#Defensive Abilities
+		breakthrough = 2
+		hardness = 0.8
+		armor_value = 10
+	}
+	armored_car_chassis_2 = {
+		year = 1942
+		abbreviation = "ac2"
+		derived_variant_name = armored_car_equipment_2
+		archetype = armored_car_chassis
+		parent = armored_car_chassis_1
+		module_slots = inherit
+		visual_level = 1
+		priority = 10
+		#Misc Abilities
+		maximum_speed = 1.
+		reliability = 1.2
+		build_cost_ic = 2.5
+		fuel_consumption = -0.5
+		recon = 2
+		#Defensive Abilities
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 15
+		resources = {
+			steel = 2
+		}
+	}
+	armored_car_chassis_3 = {
+		year = 1944
+		abbreviation = "ac3"
+		derived_variant_name = armored_car_at_equipment
+		archetype = armored_car_chassis
+		parent = armored_car_chassis_2
+		module_slots = inherit
+		visual_level = 1
+		priority = 10
+		#Misc Abilities
+		maximum_speed = 1
+		reliability = 1.3
+		build_cost_ic = 3
+		fuel_consumption = -0.5
+		recon = 2
+		#Defensive Abilities
+		breakthrough = 6
+		hardness = 0.9
+		armor_value = 20
+	}
+}

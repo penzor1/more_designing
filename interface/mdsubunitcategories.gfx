@@ -1,0 +1,17 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_unit_category_all_engineers"
+		texturefile = "gfx/interface/category_support_battalions.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_engineers"
+		texturefile = "gfx/interface/category_support_battalions.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_category_combat_engineers"
+		texturefile = "gfx/interface/category_support_battalions.dds"
+		legacy_lazy_load = no
+	}
+}

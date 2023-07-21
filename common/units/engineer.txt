@@ -1,0 +1,772 @@
+sub_units = {
+	engineer = {
+		abbreviation = "ENG"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			infantry
+			support
+			flame
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		entrenchment  = 5
+		
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		essential = {
+			support_equipment
+		}
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+		}
+
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = engineer # blocks adding other types to template
+	}
+	motorized_engineer = {
+		abbreviation = "MOTENG"
+		sprite = motorized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			motorized
+			support
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = no
+		
+		entrenchment  = 5
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = motorized_chassis
+		essential = {
+			support_equipment
+			motorized_chassis
+		}
+		need = {
+			support_equipment = 30
+			motorized_chassis = 20
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = engineer # blocks adding other types to template
+	}
+	mechanized_engineer = {
+		abbreviation = "MECENG"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			mechanized
+			support
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = no
+		
+		entrenchment  = 5
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = mechanized_chassis
+		essential = {
+			support_equipment
+			mechanized_chassis
+		}
+		need = {
+			support_equipment = 30
+			mechanized_chassis = 15
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = engineer # blocks adding other types to template
+	}
+	light_armor_engineer = {
+		abbreviation = "LTKENG"
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			armor
+			support
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		entrenchment  = 5
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = light_tank_chassis
+		essential = {
+			support_equipment
+			light_tank_chassis
+		}
+		need = {
+			support_equipment = 30
+			light_tank_chassis = 15
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = engineer # blocks adding other types to template
+	}
+	medium_armor_engineer = {
+		abbreviation = "MTKENG"
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			armor
+			support
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = no
+		
+		entrenchment  = 5
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = medium_tank_chassis
+		essential = {
+			support_equipment
+			medium_tank_chassis
+		}
+		need = {
+			support_equipment = 30
+			medium_tank_chassis = 10
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = engineer # blocks adding other types to template
+	}
+	combat_engineer = {
+		abbreviation = "PIO"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			infantry
+			support
+			flame
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_combat_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		essential = {
+			support_equipment
+		}
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+		}
+
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = flame # blocks adding other types to template
+	}
+	motorized_combat_engineer = {
+		abbreviation = "MOTPIO"
+		sprite = motorized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			motorized
+			support
+			flame
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_combat_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = motorized_chassis
+		essential = {
+			support_equipment
+			motorized_chassis
+		}
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+			motorized_flame_chassis = 20
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = flame # blocks adding other types to template
+	}
+	mechanized_combat_engineer = {
+		abbreviation = "MECPIO"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			mechanized
+			support
+			flame
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_combat_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = mechanized_chassis
+		essential = {
+			support_equipment
+			mechanized_chassis
+		}
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+			mechanized_flame_chassis = 15
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = flame # blocks adding other types to template
+	}
+	light_tank_combat_engineer = {
+		abbreviation = "ARCOENG"
+		sprite = armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			armor
+			support
+			flame
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_combat_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = no
+		
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = light_tank_chassis
+		essential = {
+			support_equipment
+			light_tank_chassis
+		}
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+			light_tank_flame_chassis = 15
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = flame # blocks adding other types to template
+	}
+	medium_tank_combat_engineer = {
+		abbreviation = "ARCOENG"
+		sprite = armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+			flame
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+#			category_combat_engineer
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = no
+		
+		defense = 0.1
+		breakthrough = 0.5
+		
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+		
+		transport = medium_tank_chassis
+		essential = {
+			support_equipment
+			medium_tank_chassis
+		}
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+			medium_tank_flame_chassis = 15
+		}
+		
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.25
+		}
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		same_support_type = flame # blocks adding other types to template
+	}
+}

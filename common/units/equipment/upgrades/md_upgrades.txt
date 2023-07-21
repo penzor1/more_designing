@@ -1,0 +1,137 @@
+upgrades = {
+	tank_nsb_gun_upgrade = {
+		abbreviation = "gun"
+		max_level = 25 #each level represents ~10mm caliber
+		cost = land
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			4 = {
+				has_tech = gun_tech_0
+			}
+			8 = {
+				has_tech = gun_tech_1
+			}
+			12 = {
+				has_tech = gun_tech_2
+			}
+			16 = {
+				has_tech = gun_tech_3
+			}
+			20 = {
+				has_tech = gun_tech_4
+			}
+		}
+		resource_cost_thresholds = { # resource values defined here are TOTAL added cost, not cumulative
+			10 = {
+				#tungsten = 1
+			}
+			15 = {
+				#tungsten = 1
+				chromium = 1
+			}
+		}
+
+		maximum_speed = -0.0025
+		reliability = -0.015
+		soft_attack = 0.0125
+		hard_attack = 0.025
+		air_attack = 0.0125
+		ap_attack = 0.025
+		add_stats = {
+			supply_consumption = 0.005
+			breakthrough = 0.25
+			build_cost_ic = 0.1
+		}
+	}
+	tank_nsb_ammo_upgrade = {
+		abbreviation = "ammo"
+		max_level = 25
+		cost = land
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			4 = {
+				has_tech = ammo_tech_0
+			}
+			8 = {
+				has_tech = ammo_tech_1
+			}
+			12 = {
+				has_tech = ammo_tech_2
+			}
+			16 = {
+				has_tech = ammo_tech_3
+			}
+			20 = {
+				has_tech = ammo_tech_4
+			}
+		}
+		resource_cost_thresholds = { # resource values defined here are TOTAL added cost, not cumulative
+			10 = {
+				#tungsten = 1
+			}
+			15 = {
+				tungsten = 1
+				#chromium = 1
+			}
+		}
+
+		reliability = -0.010
+		soft_attack = 0.025
+		hard_attack = 0.0125
+		air_attack = 0.025
+		ap_attack = 0.0125
+		add_stats = {
+			supply_consumption = 0.005
+			breakthrough = 0.125
+			build_cost_ic = 0.1
+		}
+	}
+	tank_nsb_optics_upgrade = {
+		abbreviation = "optics"
+		max_level = 20
+		cost = land
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 5
+		}
+		level_requirements = {
+			4 = {
+				has_tech = optics_tech_0
+			}
+			8 = {
+				has_tech = optics_tech_1
+			}
+			12 = {
+				has_tech = optics_tech_2
+			}
+			16 = {
+				has_tech = optics_tech_3
+			}
+			20 = {
+				has_tech = optics_tech_4
+			}
+		}
+		resource_cost_thresholds = { # resource values defined here are TOTAL added cost, not cumulative
+			10 = {
+				#tungsten = 1
+			}
+			15 = {
+				#tungsten = 1
+				chromium = 1
+			}
+		}
+
+		reliability = -0.005
+		breakthrough = 0.05
+		defense = 0.05
+		add_stats = {
+			build_cost_ic = 0.05
+		}
+	}
+}

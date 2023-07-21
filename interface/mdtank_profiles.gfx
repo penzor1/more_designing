@@ -1,0 +1,18 @@
+spriteTypes = {
+	#motorized_chassis
+#	
+#	spriteType = {
+#		name = GFX_generic_motorized_0_AAA
+#		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_motorized_0_AAA.dds
+#	}
+#	
+#	spriteType = {
+#		name = GFX_generic_motorized_0_AAA_camo
+#		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_motorized_0_AAB_camo.dds
+#	}
+#	
+	spriteType = {
+		name = GFX_FRA_super_heavy_AAA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_super_heavy_AAA_camo.dds
+	}
+}

@@ -1,0 +1,15 @@
+﻿l_english:
+### EQUIPMENT MODULE SLOTS ###
+### EQUIPMENT MODULE CATEGORIES ###
+### EQUIPMENT MODULES ###
+### NEW ###
+	EQ_MOD_SLOT_mid_4_custom_slot_TITLE:0 "Mid 4 Custom"
+	EQ_MOD_SLOT_mid_5_custom_slot_TITLE:0 "Mid 5 Custom"
+	EQ_MOD_SLOT_mid_6_custom_slot_TITLE:0 "Mid 6 Custom"
+	EQ_MOD_SLOT_mid_7_custom_slot_TITLE:0 "Mid 7 Custom"
+	EQ_MOD_SLOT_mid_8_custom_slot_TITLE:0 "Mid 8 Custom"
+	EQ_MOD_SLOT_mid_9_custom_slot_TITLE:0 "Mid 9 Custom"
+	EQ_MOD_SLOT_mid_10_custom_slot_TITLE:0 "Mid 10 Custom"
+	EQ_MOD_SLOT_mid_11_custom_slot_TITLE:0 "Mid 11 Custom"
+	EQ_MOD_SLOT_mid_12_custom_slot_TITLE:0 "Mid 12 Custom"
+#eof

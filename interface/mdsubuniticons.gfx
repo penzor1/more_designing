@@ -1,0 +1,55 @@
+spriteTypes = {	
+	##################################
+	### Large images for Groups ###
+#	spriteType = { name = "GFX_group_artillery_icon"								textureFile = "gfx/interface/counters/divisions_large/unit_artillery_icon.dds" noOfFrames = 2 }
+	##################################
+	### Large images for DIVISIONS ###
+	spriteType = { name = "GFX_unit_motorized_aa_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_motorized_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_artillery_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_motorized_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_tank_destroyer_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_motorized_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_amphibious_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_motorized_amphibious_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_flame_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_motorized_flamethrower_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_aa_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_artillery_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_tank_destroyer_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_amphibious_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_mechanized_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_flame_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_flamethrower_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_aa_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_artillery_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_tank_destroyer_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_amphibious_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_amphibious_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_flame_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_flamethrower_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_aa_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_armor_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_artillery_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_armor_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_tank_destroyer_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_armor_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_flame_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_armor_flamethrower_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_armor_amphibious_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_amphibious_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_armor_flame_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_modern_armor_flamethrower_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_super_heavy_tank_amphibious_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_super_heavy_tank_amphibious_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_super_heavy_tank_flame_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_super_heavy_tank_flamethrower_icon.dds" noOfFrames = 2 }
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+	spriteType = { name = "GFX_unit_motorized_aa_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_antiair_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_artillery_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_artillery_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_tank_destroyer_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_at_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_amphibious_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_amphibious_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_flame_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_flamethrower_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_mechanized_aa_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_artillery_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_tank_destroyer_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mechanized_amphibious_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_amphibious_mechanized_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_mechanized_flame_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mechanized_flamethrower_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_armored_car_aa_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_artillery_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_tank_destroyer_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_armored_car_amphibious_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_amphibious_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_armored_car_flame_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_flamethrower_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_amphibious_armor_aa_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_amphibious_armor_antiair_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_artillery_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_amphibious_armor_artillery_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_tank_destroyer_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_amphibious_armor_at_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_armor_flame_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_amphibious_armor_flamethrower_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_armor_amphibious_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_amphibious_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_modern_armor_flame_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_modern_armor_flamethrower_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_super_heavy_tank_amphibious_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_super_heavy_tank_amphibious_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_super_heavy_tank_flame_icon_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_super_heavy_tank_flamethrower_icon.dds" noOfFrames = 2}
+}

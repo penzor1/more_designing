@@ -1,0 +1,111 @@
+spriteTypes = {
+	# Keep in sync with texticons.gfx entries GFX_anti_tank_texticon etc.
+	#motorized
+	SpriteType = {
+		name = "GFX_motorized"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_motorized_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_motorized_artillery_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_2.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_motorized_aa_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_3.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_motorized_tank_destroyer_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_1.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_motorized_amphibious_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_6.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_motorized_flame_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_10.dds"
+		legacy_lazy_load = no
+	}
+	#mechanized
+	SpriteType = {
+		name = "GFX_mechanized"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_mechanized_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_mechanized_artillery_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_2.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_mechanized_aa_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_3.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_mechanized_tank_destroyer_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_1.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_mechanized_amphibious_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_6.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_mechanized_flame_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_10.dds"
+		legacy_lazy_load = no
+	}
+	#armored_car
+	SpriteType = {
+		name = "GFX_armored_car"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_7.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_armored_car_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_7.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_armored_car_artillery_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_2.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_armored_car_aa_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_3.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_armored_car_tank_destroyer_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_1.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_armored_car_amphibious_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_6.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_armored_car_flame_chassis"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_10.dds"
+		legacy_lazy_load = no
+	}
+}

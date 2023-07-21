@@ -1,0 +1,152 @@
+spriteTypes = {
+#TECH_ICONS
+	SpriteType = {
+		name = "GFX_optics_tech_0_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_1_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_2_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_3_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_4_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_0_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_1_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_2_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_3_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_4_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ammo_tech_0_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ammo_tech_1_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ammo_tech_2_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ammo_tech_3_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ammo_tech_4_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	SpriteType = {
+		name = "GFX_reliability_tech_0_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_reliability_tech_1_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_reliability_tech_2_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_reliability_tech_3_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_reliability_tech_4_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cost_tech_0_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cost_tech_1_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cost_tech_2_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cost_tech_3_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_cost_tech_4_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+#EQUIPMENT_ICONS
+	SpriteType = {
+		name = "GFX_interwar_mechanized_chassis_medium"
+		texturefile = "gfx/interface/technologies/generic_inter_war_mechanized_chassis.dds"
+	}
+	SpriteType = {
+		name = "GFX_interwar_motorized_chassis_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_motorized_chassis_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_motorized_chassis_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_motorized_chassis_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_motorized_chassis_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanized_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/generic_mechanized_chassis_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/generic_motorized_chassis_4.dds"
+	}
+}

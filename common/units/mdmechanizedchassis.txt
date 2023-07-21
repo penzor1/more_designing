@@ -1,0 +1,247 @@
+sub_units = {
+	mechanized_aa = {
+		abbreviation = "MECAA"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 610
+		ai_priority = 200
+		active = yes
+
+		type = {
+			mechanized
+			anti_air
+		}
+		group = mobile
+		categories = { category_army }		
+		
+		transport = mechanized_aa_chassis
+		essential = { mechanized_aa_chassis }
+		need = { mechanized_aa_chassis = 36 }
+
+		combat_width = 1
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.1
+		
+		breakthrough = -0.5
+		suppression = 0.75
+
+		forest = {
+			attack = -0.1
+			movement = -0.25
+		}
+		jungle = {
+			attack = -0.2
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.2
+			movement = -0.2
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	mechanized_artillery = {
+		abbreviation = "MECART"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 610
+		ai_priority = 200
+		active = yes
+		
+		type = {
+			mechanized
+			artillery
+		}
+		group = mobile
+		categories = { category_army }
+
+		transport = mechanized_artillery_chassis
+		essential = { mechanized_artillery_chassis }
+		need = { mechanized_artillery_chassis = 36 }
+		
+		combat_width = 3
+		manpower = 500
+		max_organisation = 0
+		max_strength = 0.6
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.25
+		
+		breakthrough = -0.3
+		suppression = 1.25
+
+		forest = {
+			attack = -0.2
+			movement = -0.25
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.1
+		}
+		jungle = {
+			attack = -0.25
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.2
+			movement = -0.15
+		}
+		fort = {
+			attack = 0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	mechanized_tank_destroyer = {
+		abbreviation = "MECTD"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 610
+		ai_priority = 200
+		active = yes
+		
+		type = {
+			mechanized
+			anti_tank
+		}
+		group = mobile
+		categories = {
+			category_front_line
+			category_army
+		}		
+		
+		transport = mechanized_tank_destroyer_chassis
+		essential = { mechanized_tank_destroyer_chassis }
+		need = { mechanized_tank_destroyer_chassis = 50 }
+		
+		combat_width = 1
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.3
+		max_strength = 0.6
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.15
+
+		breakthrough = -0.3
+		suppression = 1.0
+
+		forest = {
+			attack = -0.2
+			movement = -0.25
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.1
+		}
+		jungle = {
+			attack = -0.25
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.2
+			movement = -0.15
+		}
+		fort = {
+			attack = 0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	mechanized_flame = {
+		abbreviation = "MECF"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 610
+		ai_priority = 200
+		active = yes
+		
+		type = {
+			mechanized
+			flame
+			support
+		}
+		group = support
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+		}		
+		
+		transport = mechanized_flame_chassis
+		essential = { mechanized_flame_chassis }
+		need = { mechanized_flame_chassis = 15 }
+		
+		combat_width = 0
+		manpower = 300
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+
+		# Support nerfs to combat abilities
+		soft_attack = -0.75
+		hard_attack = -0.75
+		defense = -0.75
+		breakthrough = -0.75
+		armor_value = -0.75
+
+		forest = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
+
+		same_support_type = flame
+	}
+}

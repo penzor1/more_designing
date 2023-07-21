@@ -1,0 +1,174 @@
+sub_units = {
+	maintenance_company = {
+		abbreviation = "MAIN"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 20	
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		
+		# Important Ability
+		reliability_factor = 0.05
+		equipment_capture_factor = 0.05
+		
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 25
+		}
+	}
+	motorized_maintenance = {
+		abbreviation = "MRV"
+		sprite = motorized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			motorized
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 20	
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		
+		# Important Ability
+		reliability_factor = 0.1
+		equipment_capture_factor = 0.05
+		
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 25
+		}
+	}
+	mechanized_maintenance = {
+		abbreviation = "MCRV"
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			mechanized
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 20	
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		
+		# Important Ability
+		reliability_factor = 0.1
+		equipment_capture_factor = 0.10
+		
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 25
+		}
+	}
+	armored_maintenance = {
+		abbreviation = "ARV"
+		sprite = medium_tank
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+		
+		type = {
+			armor
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+		}
+		
+		#Size Definitions
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 20	
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		
+		# Important Ability
+		reliability_factor = 0.1
+		equipment_capture_factor = 0.15
+		
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 25
+		}
+	}
+}

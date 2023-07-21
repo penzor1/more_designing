@@ -1,0 +1,256 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			#motorized_chassis_0
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = yes
+					has_tech = infantry_weapons
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_0_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_0
+					parent_version = 1
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 4
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_0_flag
+			}
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = no
+					has_tech = infantry_weapons
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_0_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_0
+					parent_version = 1
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_0_flag
+			}
+			#motorized_chassis_1
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = yes
+					has_tech = motorised_infantry
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_1_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_1
+					parent_version = 2
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 8
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_1_flag
+			}
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = no
+					has_tech = motorised_infantry
+					has_army_experience > 20
+					has_country_flag = ai_generic_motorized_chassis_0_flag
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_1_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_1
+					parent_version = 2
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 2
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_1_flag
+			}
+			#motorized_chassis_2
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = yes
+					has_tech = mechanised_infantry
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_2_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_2
+					parent_version = 3
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 8
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_2_flag
+			}
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = no
+					has_tech = mechanised_infantry
+					has_army_experience > 40
+					has_country_flag = ai_generic_motorized_chassis_1_flag
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_2_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_2
+					parent_version = 3
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 4
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_2_flag
+			}
+			#motorized_chassis_3
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = yes
+					has_tech = mechanised_infantry3
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_3_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_3
+					parent_version = 4
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_welded_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 12
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_3_flag
+			}
+			every_country = {
+				limit = {
+					is_ai = yes
+					is_major = no
+					has_tech = mechanised_infantry3
+					has_army_experience > 40
+					has_country_flag = ai_generic_motorized_chassis_2_flag
+					not = {
+						has_country_flag = ai_generic_motorized_chassis_3_flag
+					}
+				}
+				create_equipment_variant = {
+					type = motorized_chassis_2
+					parent_version = 3
+					modules = {
+						main_armament_slot = tank_module_troop_carrier
+						turret_type_slot = empty
+						suspension_type_slot = tank_wheeled_suspension
+						armor_type_slot = tank_welded_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = empty
+						special_type_slot_2 = empty
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 8
+						tank_nsb_armor_upgrade = 0
+					}
+				}
+				set_country_flag = ai_generic_motorized_chassis_3_flag
+			}
+		}
+	}
+}

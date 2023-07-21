@@ -1,0 +1,5912 @@
+default = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_basic_light_td_medium
+				GFX_FRA_basic_medium_td_medium
+				GFX_USA_basic_light_td_medium
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 0.1
+			models = {
+				"motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"generic_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_basic_light_td_medium
+				GFX_FRA_basic_medium_td_medium
+				GFX_USA_basic_light_td_medium
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 0.1
+			models = {
+				"motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"generic_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_basic_light_td_medium
+				GFX_FRA_basic_medium_td_medium
+				GFX_USA_basic_light_td_medium
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 0.1
+			models = {
+				"motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"generic_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_basic_light_td_medium
+				GFX_FRA_basic_medium_td_medium
+				GFX_USA_basic_light_td_medium
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 0.1
+			models = {
+				"motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"generic_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_mechanised_infantry_medium
+				GFX_SOV_mechanised_infantry_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_medium
+				GFX_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"amphibious_mechanized_entity"
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_mechanised_infantry_medium
+				GFX_SOV_mechanised_infantry_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_medium
+				GFX_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"amphibious_mechanized_entity"
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_mechanised_infantry2_medium
+				GFX_SOV_mechanised_infantry2_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_2_medium
+				GFX_amphibious_mechanized_infantry_2_medium
+			}
+			models = {
+				"amphibious_mechanized_entity"
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 0.1
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_mechanised_infantry3_medium
+				GFX_SOV_mechanised_infantry3_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 0.1
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_2_medium
+				GFX_amphibious_mechanized_infantry_2_medium
+			}
+			models = {
+				"amphibious_mechanized_entity"
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_armored_car1_medium
+			}
+			models = {
+				"armored_car_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 0.1
+			models = {
+				"armored_car_1_entity"
+				"armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_armored_car1_medium
+				GFX_armored_car2_medium
+			}
+			models = {
+				"armored_car_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 0.1
+			models = {
+				"armored_car_0_entity"
+				"armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_armored_car1_medium
+				GFX_armored_car2_medium
+			}
+			models = {
+				"armored_car_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 0.1
+			models = {
+				"armored_car_0_entity"
+				"armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			weight = 0.1
+			icons = {
+				GFX_armored_car1_medium
+				GFX_armored_car2_medium
+				GFX_armored_car3_medium
+			}
+			models = {
+				"armored_car_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 0.1
+			models = {
+				"armored_car_0_entity"
+				"armored_car_1_entity"
+			}
+		}
+	}
+}
+AST = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+				GFX_ENG_armored_car3_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+}
+BUL = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"BUL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"BUL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"BUL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"BUL_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_BUL_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_BUL_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_BUL_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_BUL_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+CAN = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_amphibious_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_amphibious_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car2_medium
+				GFX_ENG_armored_car1_medium
+				GFX_CAN_armored_car2_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				GFX_CAN_armored_car2_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				GFX_CAN_armored_car2_medium
+				GFX_ENG_armored_car3_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+}
+CHI = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+CZE = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_motorized_equipment_1_medium
+			}
+			models = {
+				#"CZE_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_motorized_equipment_1_medium
+			}
+			models = {
+				#"CZE_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_motorized_equipment_1_medium
+			}
+			models = {
+				#"CZE_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_motorized_equipment_1_medium
+			}
+			models = {
+				#"CZE_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_CZE_mechanised_infantry3_medium
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_CZE_armored_car1_medium
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_CZE_armored_car1_medium
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_CZE_armored_car1_medium
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_CZE_armored_car1_medium
+			}
+		}
+	}
+}
+ENG = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				GFX_ENG_armored_car3_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+}
+FIN = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			weight = 2
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			weight = 2
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			weight = 2
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			weight = 2
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+}
+FRA = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_FRA_basic_medium_td_medium"
+			}
+			models = {
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"FRA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_FRA_basic_medium_td_medium"
+			}
+			models = {
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"FRA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_FRA_basic_medium_td_medium"
+			}
+			models = {
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"FRA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_FRA_basic_medium_td_medium"
+			}
+			models = {
+				"FRA_medium_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"FRA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_motorized_equipment_1_medium
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			models = {
+				"FRA_light_tank_destroyer_brigade_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			models = {
+				"FRA_light_tank_destroyer_brigade_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			models = {
+				"FRA_light_tank_destroyer_brigade_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			models = {
+				"FRA_light_tank_destroyer_brigade_2_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_FRA_mechanised_infantry3_medium
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_FRA_armored_car1_medium
+			}
+			models = {
+				"FRA_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_FRA_armored_car1_medium
+				GFX_FRA_armored_car2_medium
+			}
+			models = {
+				"FRA_armored_car_0_entity"
+				"FRA_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_FRA_armored_car1_medium
+				GFX_FRA_armored_car2_medium
+			}
+			models = {
+				"FRA_armored_car_0_entity"
+				"FRA_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_FRA_armored_car1_medium
+				GFX_FRA_armored_car2_medium
+				GFX_FRA_armored_car3_medium
+			}
+			models = {
+				"FRA_armored_car_0_entity"
+				"FRA_armored_car_1_entity"
+			}
+		}
+	}
+}
+GER = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"GER_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_motorized_rocket_unit_medium
+				GFX_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"GER_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_motorized_rocket_unit_medium
+				GFX_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"GER_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_motorized_rocket_unit_medium
+				GFX_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"GER_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_motorized_rocket_unit_medium
+				GFX_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_GER_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"GER_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_mechanised_infantry_medium
+			}
+			models = {
+				"GER_mechanized_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_GER_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"GER_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_mechanised_infantry_medium
+			}
+			models = {
+				"GER_mechanized_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_GER_amphibious_mechanized_infantry_2_medium
+			}
+			models = {
+				"GER_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_mechanised_infantry2_medium
+			}
+			models = {
+				"GER_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_GER_amphibious_mechanized_infantry_2_medium
+			}
+			models = {
+				"GER_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_GER_mechanised_infantry3_medium
+			}
+			models = {
+				"GER_mechanized_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_GER_armored_car1_medium
+			}
+			models = {
+				"GER_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_GER_armored_car1_medium
+				GFX_GER_armored_car2_medium
+			}
+			models = {
+				"GER_armored_car_0_entity"
+				"GER_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_GER_armored_car1_medium
+				GFX_GER_armored_car2_medium
+			}
+			models = {
+				"GER_armored_car_0_entity"
+				"GER_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_GER_armored_car1_medium
+				GFX_GER_armored_car2_medium
+				GFX_GER_armored_car3_medium
+			}
+			models = {
+				"GER_armored_car_0_entity"
+				"GER_armored_car_1_entity"
+			}
+		}
+	}
+}
+GRE = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"GRE_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"GRE_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"GRE_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			models = {
+				"GRE_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_GRE_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_GRE_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_GRE_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			weight = 2
+			icons = {
+				GFX_GRE_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+GXC = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			weight = 2
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+HOL = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_HOL_motorized_equipment_1_medium
+			}
+			models = {
+				"HOL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_HOL_motorized_equipment_1_medium
+			}
+			models = {
+				"HOL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_HOL_motorized_equipment_1_medium
+			}
+			models = {
+				"HOL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_HOL_motorized_equipment_1_medium
+			}
+			models = {
+				"HOL_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				#GFX_HOL_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				#GFX_HOL_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				#GFX_HOL_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				#GFX_HOL_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+HUN = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_mechanised_infantry2_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_mechanised_infantry3_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+}
+ITA = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"ITA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ITA_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"ITA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ITA_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"ITA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ITA_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"ITA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_HUN_motorized_equipment_1_medium
+			}
+			models = {
+				"HUN_motorized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_ITA_motorized_equipment_1_medium
+			}
+			models = {
+				"GER_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = {
+				#GFX_ITA_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			icons = {
+				#GFX_ITA_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			icons = {
+				#GFX_ITA_mechanised_infantry2_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			icons = {
+				#GFX_ITA_mechanised_infantry3_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			models = {
+				"ITA_mechanized_vehicle_1_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ITA_armored_car1_medium
+			}
+			models = {
+				"ITA_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ITA_armored_car1_medium
+				GFX_ITA_armored_car2_medium
+			}
+			models = {
+				"ITA_armored_car_0_entity"
+				"ITA_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ITA_armored_car1_medium
+				GFX_ITA_armored_car2_medium
+			}
+			models = {
+				"ITA_armored_car_0_entity"
+				"ITA_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ITA_armored_car2_medium
+				GFX_ITA_armored_car3_medium
+			}
+			models = {
+				"ITA_armored_car_0_entity"
+				"ITA_armored_car_1_entity"
+			}
+		}
+	}
+}
+JAP = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+				GFX_JAP_armored_car2_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+				"JAP_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+				GFX_JAP_armored_car2_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+				"JAP_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+				GFX_JAP_armored_car2_medium
+				GFX_JAP_armored_car3_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+				"JAP_armored_car_1_entity"
+			}
+		}
+	}
+}
+JAP = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"JAP_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_motorized_rocket_unit_medium
+				GFX_JAP_motorized_equipment_1_medium
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_JAP_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"JAP_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_JAP_mechanised_infantry_medium
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Axis Armor Pack" }
+			weight = 2
+			icons = {
+				GFX_JAP_advanced_medium_td_medium
+				GFX_JAP_advanced_medium_art_medium
+				GFX_JAP_improved_light_spaa_medium
+			}
+			models = {
+				"JAP_medium_tank_destroyer_brigade_2_entity"
+				"JAP_medium_sp_artillery_brigade_2_entity"
+				"JAP_light_sp_anti_air_brigade_1_entity"
+				"JAP_mechanized_vehicle_0_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+				GFX_JAP_armored_car2_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+				"JAP_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+				GFX_JAP_armored_car2_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+				"JAP_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_JAP_armored_car1_medium
+				GFX_JAP_armored_car2_medium
+				GFX_JAP_armored_car3_medium
+			}
+			models = {
+				"JAP_armored_car_0_entity"
+				"JAP_armored_car_1_entity"
+			}
+		}
+	}
+}
+NZL = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+				GFX_ENG_armored_car3_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+}
+POL = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Poland: United and Ready" }
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Poland: United and Ready" }
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Poland: United and Ready" }
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_POL_motorized_equipment_1_medium
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Poland: United and Ready" }
+			models = {
+				"POL_motorized_vehicle_entity"
+			}
+		}
+	}
+}
+POR = {
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+PRC = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_PRC_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+RAJ = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_RAJ_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_RAJ_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_RAJ_armored_car2_medium"
+				GFX_ENG_armored_car3_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+}
+ROM = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_motorized_equipment_1_medium
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_ROM_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+SAF = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				GFX_CAN_motorized_equipment_1_medium
+			}
+			models = {
+				"CAN_motorized_austin_k5_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Allied Armor Pack" }
+			weight = 2
+			icons = {
+				"GFX_ENG_basic_light_td_medium"
+			}
+			models = {
+				"ENG_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			weight = 2
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			models = {
+				"FRA_mechanized_entity"
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			weight = 2
+			icons = {
+				"GFX_CAN_mechanised_infantry3_medium"
+				"GFX_CAN_mechanised_infantry2_medium"
+				"GFX_CAN_mechanised_infantry_medium"
+				"GFX_ENG_mechanised_infantry3_medium"
+				"GFX_ENG_mechanised_infantry2_medium"
+				"GFX_ENG_mechanised_infantry_medium"
+				"GFX_RAJ_mechanised_infantry3_medium"
+				"GFX_RAJ_mechanised_infantry2_medium"
+				"GFX_RAJ_mechanised_infantry_medium"
+			}
+			models = {
+				"CAN_mechanized_vehicle_entity"
+				"generic_mechanized_churchill_kangaroo_entity"
+				"generic_mechanized_universal_carrier_mkii_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_ENG_armored_car1_medium
+				GFX_ENG_armored_car2_medium
+				"GFX_SAF_armored_car2_medium"
+				GFX_ENG_armored_car3_medium
+			}
+			models = {
+				"ENG_armored_car_0_entity"
+				"ENG_armored_car_1_entity"
+			}
+		}
+	}
+}
+SHX = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+SIK = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+SOV = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"SOV_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"SOV_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"SOV_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"SOV_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"SOV_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"SOV_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"SOV_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_motorized_rocket_unit_medium
+				GFX_SOV_motorized_equipment_1_medium
+			}
+			models = {
+				"SOV_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SOV_mechanised_infantry_medium
+			}
+			models = {
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SOV_mechanised_infantry_medium
+			}
+			models = {
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SOV_mechanised_infantry2_medium
+			}
+			models = {
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			icons = {
+				GFX_SOV_mechanised_infantry3_medium
+			}
+			models = {
+				"SOV_mechanized_vehicle_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_SOV_armored_car1_medium
+			}
+			models = {
+				"SOV_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_SOV_armored_car1_medium
+				GFX_SOV_armored_car2_medium
+			}
+			models = {
+				"SOV_armored_car_0_entity"
+				"SOV_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_SOV_armored_car1_medium
+				GFX_SOV_armored_car2_medium
+			}
+			models = {
+				"SOV_armored_car_0_entity"
+				"SOV_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_SOV_armored_car1_medium
+				GFX_SOV_armored_car2_medium
+				GFX_SOV_armored_car3_medium
+			}
+			models = {
+				"SOV_armored_car_0_entity"
+				"SOV_armored_car_1_entity"
+			}
+		}
+	}
+}
+SPR = {
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_POR_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+TIB = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+TUR = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			models = {
+				"TUR_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			models = {
+				"TUR_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			models = {
+				"TUR_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			models = {
+				"TUR_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			icons = {
+				GFX_TUR_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			icons = {
+				GFX_TUR_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			icons = {
+				GFX_TUR_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Battle for the Bosporus" }
+			icons = {
+				GFX_TUR_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+USA = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_basic_light_td_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"USA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_USA_motorized_rocket_unit_medium
+				GFX_USA_motorized_equipment_1_medium
+			}
+			models = {
+				"USA_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_basic_light_td_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"USA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_USA_motorized_rocket_unit_medium
+				GFX_USA_motorized_equipment_1_medium
+			}
+			models = {
+				"USA_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_basic_light_td_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"USA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_USA_motorized_rocket_unit_medium
+				GFX_USA_motorized_equipment_1_medium
+			}
+			models = {
+				"USA_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_ENG_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"ENG_amphibious_mechanized_vehicle_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_basic_light_td_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_0_entity"
+			}
+		}
+		pool = {
+#			limit = { has_dlc = "Rocket Launcher Unit Pack" }
+			weight = 2
+			models = {
+				"USA_motorized_rocket_brigade_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_USA_motorized_rocket_unit_medium
+				GFX_USA_motorized_equipment_1_medium
+			}
+			models = {
+				"USA_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_advanced_light_td_medium"
+				"GFX_USA_improved_light_art_medium"
+				"GFX_USA_basic_light_art_medium"
+				"GFX_USA_basic_medium_spaa_medium"
+				"GFX_USA_improved_medium_spaa_medium"
+				"GFX_USA_improved_light_spaa_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_2_entity"
+				"USA_light_tank_destroyer_brigade_1_entity"
+				"USA_light_sp_artillery_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_1_entity"
+				"USA_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_mechanised_infantry_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_medium
+			}
+			models = {
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_advanced_light_td_medium"
+				"GFX_USA_improved_light_art_medium"
+				"GFX_USA_basic_light_art_medium"
+				"GFX_USA_basic_medium_spaa_medium"
+				"GFX_USA_improved_medium_spaa_medium"
+				"GFX_USA_improved_light_spaa_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_2_entity"
+				"USA_light_tank_destroyer_brigade_1_entity"
+				"USA_light_sp_artillery_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_1_entity"
+				"USA_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_mechanised_infantry_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_2_medium
+			}
+			models = {
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_advanced_light_td_medium"
+				"GFX_USA_improved_light_art_medium"
+				"GFX_USA_basic_light_art_medium"
+				"GFX_USA_basic_medium_spaa_medium"
+				"GFX_USA_improved_medium_spaa_medium"
+				"GFX_USA_improved_light_spaa_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_2_entity"
+				"USA_light_tank_destroyer_brigade_1_entity"
+				"USA_light_sp_artillery_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_1_entity"
+				"USA_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_mechanised_infantry2_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				GFX_USA_amphibious_mechanized_infantry_2_medium
+			}
+			models = {
+				"USA_amphibious_mechanized_entity"
+			}
+		}
+		pool = {
+			weight = 2
+#			limit = { has_dlc = "Allied Armor Pack" }
+			icons = {
+				"GFX_USA_advanced_light_td_medium"
+				"GFX_USA_improved_light_art_medium"
+				"GFX_USA_basic_light_art_medium"
+				"GFX_USA_basic_medium_spaa_medium"
+				"GFX_USA_improved_medium_spaa_medium"
+				"GFX_USA_improved_light_spaa_medium"
+			}
+			models = {
+				"USA_light_tank_destroyer_brigade_2_entity"
+				"USA_light_tank_destroyer_brigade_1_entity"
+				"USA_light_sp_artillery_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_0_entity"
+				"USA_medium_sp_anti_air_brigade_1_entity"
+				"USA_light_sp_anti_air_brigade_1_entity"
+			}
+		}
+		pool = {
+			weight = 2
+			icons = {
+				GFX_mechanised_infantry3_medium
+			}
+			models = {
+				"USA_mechanized_entity"
+			}
+		}
+	}
+	#armored_car_chassis
+	armored_car_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_USA_armored_car1_medium
+			}
+			models = {
+				"USA_armored_car_0_entity"
+			}
+		}
+	}
+	armored_car_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_USA_armored_car1_medium
+				GFX_USA_armored_car2_medium
+			}
+			models = {
+				"USA_armored_car_0_entity"
+				"USA_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_USA_armored_car1_medium
+				GFX_USA_armored_car2_medium
+			}
+			models = {
+				"USA_armored_car_0_entity"
+				"USA_armored_car_1_entity"
+			}
+		}
+	}
+	armored_car_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			weight = 2
+			icons = {
+				GFX_USA_armored_car1_medium
+				GFX_USA_armored_car2_medium
+				GFX_USA_armored_car3_medium
+			}
+			models = {
+				"USA_armored_car_0_entity"
+				"USA_armored_car_1_entity"
+			}
+		}
+	}
+}
+XSM = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+YUG = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_motorized_equipment_1_medium
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_motorized_equipment_1_medium
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				GFX_YUG_mechanised_infantry3_medium
+			}
+		}
+	}
+}
+YUN = {
+	#motorized_chassis
+	motorized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	motorized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_motorized_equipment_1_medium
+			}
+			models = {
+				"CHI_motorized_vehicle_entity"
+			}
+		}
+	}
+	#mechanized_chassis
+	mechanized_chassis_0 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_1 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry_medium
+			}
+		}
+	}
+	mechanized_chassis_2 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry2_medium
+			}
+		}
+	}
+	mechanized_chassis_3 = {
+		pool = {
+			weight = 2
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				GFX_CHI_mechanised_infantry3_medium
+			}
+		}
+	}
+}
