@@ -1,6 +1,7 @@
 spriteTypes = {
 	# Keep in sync with equipment_categories.gfx entries GFX_anti_tank_texticon etc.
-	#motorized
+###TEXT_ICONS###
+###motorized_chassis###
 	SpriteType = {
 		name = "GFX_motorized_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
@@ -36,12 +37,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_10.dds"
 		legacy_lazy_load = no
 	}
-	SpriteType = {
-		name = "GFX_motorized_armored_chassis_texticon"
-		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
-		legacy_lazy_load = no
-	}
-	#mechanized
+###mechanized_chassis###
 	SpriteType = {
 		name = "GFX_mechanized_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
@@ -77,7 +73,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_10.dds"
 		legacy_lazy_load = no
 	}
-	#armored_car
+###armored_car_chassis
 	SpriteType = {
 		name = "GFX_armored_car_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_7.dds"

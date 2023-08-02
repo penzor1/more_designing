@@ -1,25 +1,5 @@
 spriteTypes = {
-#TECH_ICONS
-	SpriteType = {
-		name = "GFX_optics_tech_0_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
-	}
-	SpriteType = {
-		name = "GFX_optics_tech_1_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
-	}
-	SpriteType = {
-		name = "GFX_optics_tech_2_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
-	}
-	SpriteType = {
-		name = "GFX_optics_tech_3_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
-	}
-	SpriteType = {
-		name = "GFX_optics_tech_4_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
-	}
+###TECH_ICONS###
 	SpriteType = {
 		name = "GFX_gun_tech_0_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
@@ -38,6 +18,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_gun_tech_4_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_5_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
 	SpriteType = {
@@ -61,23 +45,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/antiair1.dds"
 	}
 	SpriteType = {
-		name = "GFX_reliability_tech_0_medium"
+		name = "GFX_ammo_tech_5_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_0_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_1_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_2_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_3_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_4_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_5_medium"
+		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_quality_tech_0_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
 	SpriteType = {
-		name = "GFX_reliability_tech_1_medium"
+		name = "GFX_quality_tech_1_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
 	SpriteType = {
-		name = "GFX_reliability_tech_2_medium"
+		name = "GFX_quality_tech_2_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
 	SpriteType = {
-		name = "GFX_reliability_tech_3_medium"
+		name = "GFX_quality_tech_3_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
 	SpriteType = {
-		name = "GFX_reliability_tech_4_medium"
+		name = "GFX_quality_tech_4_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
+		name = "GFX_quality_tech_5_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
 	SpriteType = {
@@ -100,7 +116,11 @@ spriteTypes = {
 		name = "GFX_cost_tech_4_medium"
 		texturefile = "gfx/interface/technologies/antitank1.dds"
 	}
-#EQUIPMENT_ICONS
+	SpriteType = {
+		name = "GFX_cost_tech_5_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+###EQUIPMENT_TECH_ICONS###
 	SpriteType = {
 		name = "GFX_interwar_mechanized_chassis_medium"
 		texturefile = "gfx/interface/technologies/generic_inter_war_mechanized_chassis.dds"
