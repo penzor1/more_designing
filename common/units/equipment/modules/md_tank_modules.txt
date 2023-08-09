@@ -692,7 +692,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 1.5
-			reliability = -0.1
+			reliability = -0.15
 			breakthrough = 1
 			maximum_speed = 0.5
 		}
@@ -715,7 +715,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 0.25
 			reliability = 0.1
 		}
 		dismantle_cost_ic  = 1
@@ -734,7 +734,7 @@ equipment_modules = {
 			build_cost_ic = 0.25
 			reliability = -0.1
 		}
-		dismantle_cost_ic  = 0.5
+		dismantle_cost_ic  = 0.25
 		xp_cost = 2
 		multiply_stats = {
 			breakthrough = 0.1
@@ -746,7 +746,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 0.1
 			reliability = 0.1
 		}
 		dismantle_cost_ic  = 1
@@ -761,12 +761,28 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 0.1
 			reliability = 0.1
 		}
 		dismantle_cost_ic  = 1
 		xp_cost = 4
 		multiply_stats = {
+			breakthrough = 0.1
+		}
+	}
+	tank_electric_power_assisted_steering = {
+		abbreviation = "awd"
+		category = tank_transmission_type_2
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 0.1
+			reliability = 0.1
+		}
+		dismantle_cost_ic  = 1
+		xp_cost = 6
+		multiply_stats = {
+			hardness = 0.1
 			breakthrough = 0.1
 		}
 	}
@@ -1292,6 +1308,33 @@ equipment_modules = {
 		}
 	}
 ###tank_drive_type_2###
+	tank_buoyancy_floaters = {
+		abbreviation = "etm"
+		category = tank_drive_module_type_1
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			reliability = 0.1
+		}
+	}
+	tank_vehicle_snorkel = {
+		abbreviation = "etm"
+		category = tank_drive_module_type_1
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			reliability = 0.1
+		}
+	}
+	tank_inflatable_screen = {
+		abbreviation = "etm"
+		category = tank_drive_module_type_1
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			reliability = 0.1
+		}
+	}
 ###tank_drive_module_type_1###
 	tank_track_extensions = {
 		abbreviation = "etm"
@@ -2356,7 +2399,7 @@ equipment_modules = {
 		dismantle_cost_ic = 0.5
 		xp_cost = 1
 	}
-###tank_gun_module_type_2
+###tank_gun_module_type_2###GUNNERY###
 	tank_telescopic_gunsight = {
 		abbreviation = "ptu"
 		category = tank_gun_module_type_2
@@ -2401,10 +2444,9 @@ equipment_modules = {
 			breakthrough = 1
 		}
 	}
-###tank_gun_module_type_3
 	tank_optical_rangefinder = {
 		abbreviation = "ptu"
-		category = tank_gun_module_type_3
+		category = tank_gun_module_type_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2414,7 +2456,7 @@ equipment_modules = {
 	}
 	tank_mechanical_rangefinder = {
 		abbreviation = "ptu"
-		category = tank_gun_module_type_3
+		category = tank_gun_module_type_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2424,7 +2466,7 @@ equipment_modules = {
 	}
 	tank_laser_rangefinder = {
 		abbreviation = "ptu"
-		category = tank_gun_module_type_3
+		category = tank_gun_module_type_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2432,10 +2474,9 @@ equipment_modules = {
 			breakthrough = 3
 		}
 	}
-###tank_gun_module_type_4
 	tank_shoulder_stabilizer = {
 		abbreviation = "0gm"
-		category = tank_gun_module_type_4
+		category = tank_gun_module_type_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2449,7 +2490,7 @@ equipment_modules = {
 	}
 	tank_two_plane_stabilizer = {
 		abbreviation = "2tu"
-		category = tank_gun_module_type_4
+		category = tank_gun_module_type_2
 		sfx = sfx_ui_sd_module_turret
 		parent = stabilizer
 		
@@ -2466,7 +2507,7 @@ equipment_modules = {
 	}
 	tank_three_plane_stabilizer = {
 		abbreviation = "3gm"
-		category = tank_gun_module_type_4
+		category = tank_gun_module_type_2
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_two_plane_stabilizer
 		
@@ -2544,7 +2585,27 @@ equipment_modules = {
 			breakthrough = 1
 		}
 	}
+	tank_armored_turret_basket = {
+		abbreviation = "pcm"
+		category = tank_crew_module_type_1
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			reliability = -0.1
+			breakthrough = 1
+		}
+	}
 	tank_sealed_cabin = {
+		abbreviation = "pcm"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			reliability = -0.1
+			defense = 2
+		}
+	}
+	tank_crew_comfort = {
 		abbreviation = "pcm"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
@@ -2643,7 +2704,7 @@ equipment_modules = {
 	###CREW_MODULES_3
 	tank_visual_communication = {
 		abbreviation = "pid"
-		category = tank_crew_module_type_3
+		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2653,7 +2714,7 @@ equipment_modules = {
 	}
 	tank_tank_telephone = {
 		abbreviation = "pcm"
-		category = tank_crew_module_type_3
+		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2664,7 +2725,7 @@ equipment_modules = {
 	}
 	tank_internal_radio = {
 		abbreviation = "int"
-		category = tank_crew_module_type_3
+		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2675,7 +2736,7 @@ equipment_modules = {
 	}
 	tank_global_positioning_system = {
 		abbreviation = "gps"
-		category = tank_crew_module_type_3
+		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -2684,9 +2745,7 @@ equipment_modules = {
 			defense = 5
 		}
 	}
-
-################"
-
+################
 	tank_open_light = {
 		abbreviation = "los"
 		category = tank_light_turret_type
@@ -2726,8 +2785,6 @@ equipment_modules = {
 			convert_cost_ic = 0.5
 		}
 	}
-	
-	
 	tank_open_medium = {
 		abbreviation = "tom"
 		category = tank_medium_turret_type
@@ -2768,7 +2825,6 @@ equipment_modules = {
 		}
 
 	}
-	
 	tank_heavy_turret_small = {
 		abbreviation = "h1m"
 		category = tank_heavy_turret_type
@@ -2799,7 +2855,6 @@ equipment_modules = {
 		}
 
 	}
-		
 	tank_open_heavy = {
 		abbreviation = "toh"
 		category = tank_heavy_turret_type
@@ -2840,9 +2895,6 @@ equipment_modules = {
 		}
 
 	}
-	
-
-
 	coax_flamethrower = { 
 		abbreviation = "cflt"
 		category = tank_flamethrower #нельзя на лт
@@ -2874,7 +2926,6 @@ equipment_modules = {
 		}
 		xp_cost = 3
 	}
-	
 		tank_medium_lw_cannon = {
 		abbreviation = "mc1"
 		category = tank_small_main_armament
@@ -2902,7 +2953,6 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-
 	hull_flamethrower = { 
 		abbreviation = "cflt"
 		category = tank_special_module #нельзя на лт
@@ -2938,7 +2988,6 @@ equipment_modules = {
 			tank_flamethrower
 		}
 	}
-
 	tank_rocket_rails = { 
 		abbreviation = "trr"
 		category = tank_special_module

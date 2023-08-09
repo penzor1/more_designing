@@ -74,14 +74,12 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
-			}
-
 				#### MODULE: Todo ####
+			}
 			containerWindowType = {
 				name = "special_type_slot_2"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
-
 
 				#### MODULE: Todo ####
 			}

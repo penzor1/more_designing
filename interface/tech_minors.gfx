@@ -1,0 +1,182 @@
+SpriteTypes = {
+####Ethiopia####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_ETH_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/ETH/ETH_rifle_Gras_M1874.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETH_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/minors/BEL/BEL_rifle_fusil_mle_1935.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETH_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/ETH/ETH_smg_MP35.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETH_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_M2_carbine.dds"
+	}
+####Austria####	
+####Weapons####
+	SpriteType = {
+	    name = "GFX_AUS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/HUN/HUN_rifle_mannlicher_m1895.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BUL/BUL_rifle_steyr_stutzen_M95_30.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/AUS/AUS_smg_mp_34.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER/GER_stg44.dds"
+	}	
+####Belgium####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_BEL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/BEL/BEL_rifle_mauser_m1889.dds"
+	}
+	SpriteType = {
+		name = "GFX_BEL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/minors/BEL/BEL_rifle_fusil_mle_1935.dds"
+	}
+	SpriteType = {
+		name = "GFX_BEL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/BEL/BEL_smg_mi_34_pm.dds"
+	}
+	SpriteType = {
+		name = "GFX_BEL_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ENG/ENG_smg_sten_V.dds"
+	}
+####Transport####	
+	SpriteType = {
+		name = "GFX_BEL_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/minors/BEL/BEL_motorized.dds"
+	}		
+    SpriteType = {
+        name = "GFX_BEL_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/minors/BEL/BEL_motorized.dds"
+    }
+####Denmark####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_DEN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/DEN/DEN_rifle_gever_m_89.dds"
+	}
+	SpriteType = {
+		name = "GFX_DEN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/minors/DEN/DEN_rifle_krag_jorgensen_m_89_24.dds"
+	}
+	SpriteType = {
+		name = "GFX_DEN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/DEN/DEN_smg_lettet_lorsogs_maskinpistol_31.dds"
+	}
+	SpriteType = {
+		name = "GFX_DEN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SWE/SWE_rifle_automatgevar_m_42.dds"
+	}
+####Estonia####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_EST_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/SOV/SOV_rifle_mosin91.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ENG/ENG_rifle_enfield_no4_mk1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/EST/EST_smg_tallinn_m23.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_smg_kp31.dds"
+	}	
+####Norway####	
+####Weapons####
+	SpriteType = {
+	    name = "GFX_NOR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/NOR/NOR_rifle_krag_jorgensen_m1894.dds"
+	}
+	SpriteType = {
+		name = "GFX_NOR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/minors/NOR/NOR_rifle_krag_jorgensen_m1912_18.dds"
+	}
+	SpriteType = {
+		name = "GFX_NOR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_smg_kp31.dds"
+	}
+	SpriteType = {
+		name = "GFX_NOR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ENG/ENG_smg_sten_V.dds"
+	}
+####Latvia####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_LAT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CAN/CAN_rifle_ross_mk3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ENG/ENG_rifle_enfield_no4_mk1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/EST/EST_smg_tallinn_m23.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_smg_kp31.dds"
+	}
+####Lithuania####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_LIT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CAN/CAN_rifle_ross_mk3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CZE/CZE_rifle_vz24.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/EST/EST_smg_tallinn_m23.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_smg_kp31.dds"
+	}
+####Transport####	
+	SpriteType = {
+		name = "GFX_LIT_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/LIT/LIT_motorized.dds"
+	}		
+    SpriteType = {
+        name = "GFX_LIT_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/LIT/LIT_motorized.dds"
+    }	
+####Switzerland####
+####Weapons####
+	SpriteType = {
+	    name = "GFX_SWI_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/SWI/SWI_rifle_schmidt_rubin_G1889.dds"
+	}
+	SpriteType = {
+		name = "GFX_SWI_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/minors/SWI/SWI_rifle_karabiner_31.dds"
+	}
+	SpriteType = {
+		name = "GFX_SWI_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/SWI/SWI_smg_furrer_mp_41_44.dds"
+	}
+	SpriteType = {
+		name = "GFX_SWI_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/minors/SWI/SWI_smg_hispano_suiza_mp_43_44.dds"
+	}	
+}	

@@ -73,38 +73,16 @@ guiTypes = {
 				name = "special_type_slot_1"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
-
-				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
-
-				containerWindowType = {
-					name = "special_type_slot_2"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-				}
-
-				containerWindowType = {
-					name = "special_type_slot_2@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_2_special_type_slot_2_usa"
-						position = { x=0 y=0 }
-					}
-				}
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
-
-				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
@@ -119,6 +97,7 @@ guiTypes = {
 				name = "suspension_type_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
+
 
 				containerWindowType = {
 					name = "suspension_type_slot"
@@ -138,12 +117,13 @@ guiTypes = {
 					}
 				}
 
+
 			}
 
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=-100 y=0 }
+				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
 				containerWindowType = {
@@ -165,7 +145,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_armor_type_slot_usa"
+						spriteType = "GFX_TM_heavy_tank_chassis_armor_type_slot_fra"
 						position = { x=0 y=0 }
 					}
 				}
@@ -175,7 +155,7 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=-25 y=10 }
+				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
 				containerWindowType = {
@@ -197,7 +177,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_engine_type_slot_usa"
+						spriteType = "GFX_TM_heavy_tank_chassis_engine_type_slot_fra"
 						position = { x=0 y=0 }
 					}
 				}

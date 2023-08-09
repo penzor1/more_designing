@@ -149,7 +149,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_medium_tank_artillery_chassis_armor_type_slot_eng"
+						spriteType = "GFX_TM_medium_tank_artillery_chassis_armor_type_slot_ger"
 						position = { x=0 y=0 }
 					}
 				}
@@ -181,7 +181,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_medium_tank_artillery_chassis_engine_type_slot_eng"
+						spriteType = "GFX_TM_medium_tank_artillery_chassis_engine_type_slot_ger"
 						position = { x=0 y=0 }
 					}
 				}

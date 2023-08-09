@@ -1,0 +1,716 @@
+spriteTypes = {
+####Weapons####
+	SpriteType = {
+	    name = "GFX_USA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_rifle_m1903_springfield.dds"
+	    }
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_rifle_m1e4_garand.dds"
+		}
+	SpriteType = {
+		name = "GFX_USA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_smg_thompson_m1928a1.dds"
+		}
+	SpriteType = {
+		name = "GFX_USA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_M2_carbine.dds"
+		}
+####Transport####		
+	SpriteType = {
+		name = "GFX_USA_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_motorized.dds"
+		}		
+    SpriteType = {
+        name = "GFX_USA_motorized_equipment_1_medium"
+        texturefile = "gfx/interface/technologies/USA/USA_motorized.dds"
+        }		
+	SpriteType = {
+		name = "GFX_USA_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_apc_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_apc_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_apc_3.dds"
+	}
+####Amphibious####	
+	SpriteType = {
+		name = "GFX_USA_amphibious_mechanized_infantry_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_ampf_mot_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_ampf_mot_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_amphibious_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_amp_tank_0.dds"
+	}		
+	#USA transport plane#	
+	SpriteType = {
+		name = "GFX_USA_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_transport_plane.dds"
+	}
+####Armored Car####	
+	SpriteType = {
+		name = "GFX_USA_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_armored_car_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_armored_car_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_armored_car_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_armored_car_4.dds"
+	}	
+####WW1_Armor####	
+	SpriteType = {
+		name = "GFX_USA_gwtank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_ww1_afv.dds"
+	}
+####Basic Light####	
+	SpriteType = {
+		name = "GFX_USA_basic_light_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_basic_light_tank_chassis.dds"
+	}
+####Improved Light####		
+	SpriteType = {
+		name = "GFX_USA_improved_light_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_imp_light_tank_chassis.dds"
+	}	
+####Advanced Light####	
+	SpriteType = {
+		name = "GFX_USA_advanced_light_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_adv_light_tank_chassis.dds"
+	}
+####Basic Medium####	
+	SpriteType = {
+		name = "GFX_USA_basic_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_basic_medium_tank_chassis.dds"
+	}	
+####Improved Medium####	
+	SpriteType = {
+		name = "GFX_USA_improved_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_imp_medium_tank_chassis.dds"
+	}
+####Advanced Medium####	
+	SpriteType = {
+		name = "GFX_USA_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_adv_medium_tank_chassis.dds"
+	}
+####MBT####	
+	SpriteType = {
+        name = "GFX_USA_main_battle_tank_chassis_medium"
+        texturefile = "gfx/interface/technologies/USA/TANKS/USA_mbt_chassis.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_modern_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_mbt_chassis.dds"
+	}	
+####Basic Heavy####	
+	SpriteType = {
+		name = "GFX_USA_basic_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_basic_heavy_tank_chassis.dds"
+	}		
+####Improved Heavy####	
+	SpriteType = {
+		name = "GFX_USA_improved_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_imp_heavy_tank_chassis.dds"
+	}
+####Advanced Heavy####	
+	SpriteType = {
+		name = "GFX_USA_advanced_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_adv_heavy_tank_chassis.dds"
+	}	
+####Super Heavy####	
+	SpriteType = {
+		name = "GFX_USA_super_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_super_heavy_tank.dds"
+	}
+####Super Heavy Tank###
+	SpriteType = {
+		name = "GFX_USA_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_super_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_super_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_super_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_super_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_super_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spaa.dds"
+	}
+####Fighter####
+	SpriteType = {
+		name = "GFX_USA_light_plane_2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_fighter_0.dds"
+		}
+	SpriteType = {
+		name = "GFX_USA_light_plane_4_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_fighter_1_9.dds"
+		}		
+	SpriteType = {
+		name = "GFX_USA_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_fighter_0.dds"
+		}	
+	SpriteType = {
+		name = "GFX_USA_fighter1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_fighter_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_fighter2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_fighter3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_fighter_3.dds"
+	}
+####CAS####	
+	SpriteType = {
+		name = "GFX_USA_CAS1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_CAS_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CAS2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_CAS_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CAS3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_CAS_3.dds"
+	}	
+####Naval Bomber####	
+	SpriteType = {
+		name = "GFX_USA_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_bomber_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_nav_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_nav_3.dds"
+	}
+####Heavy Fighter####	
+	SpriteType = {
+		name = "GFX_USA_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_heavy_fighter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_heavy_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_heavy_fighter_3.dds"
+	}
+####Tac Bomber####	
+	SpriteType = {
+		name = "GFX_medium_plane_1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_bomber_1_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_bomber_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_bomber_1.dds"
+	}			
+	SpriteType = {
+		name = "GFX_USA_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_bomber_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_USA_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_bomber_3.dds"
+	}	
+####Strat Bomber####	
+    SpriteType = {
+		name = "GFX_USA_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_strat_1.dds"
+	}	
+    SpriteType = {
+		name = "GFX_USA_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_strat_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_USA_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_strat_3.dds"
+	}
+####CV CAS####	
+    SpriteType = {
+        name = "GFX_USA_cv_CAS1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_CAS_1.dds"
+    }	
+    SpriteType = {
+        name = "GFX_USA_cv_CAS2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_CAS_2.dds"
+    }
+	SpriteType = {
+		name = "GFX_USA_cv_CAS3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_CAS_3.dds"
+	}
+####CV Fighter####	
+	SpriteType = {
+		name = "GFX_USA_cv_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_fighter_0.dds"
+		}	
+    SpriteType = {
+        name = "GFX_USA_cv_fighter1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_fighter_1.dds"
+    }
+    SpriteType = {
+        name = "GFX_USA_cv_fighter2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_fighter_2.dds"
+    }
+    SpriteType = {
+        name = "GFX_USA_cv_fighter3_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_fighter_3.dds"
+    }
+####CV Nav Bomber####	
+    SpriteType = {
+        name = "GFX_USA_cv_naval_bomber1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_nav_1.dds"
+    }	
+    SpriteType = {
+        name = "GFX_USA_cv_naval_bomber2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_nav_2.dds"
+    }		
+	SpriteType = {
+        name = "GFX_USA_cv_naval_bomber3_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_cv_nav_3.dds"
+    }
+####Scout Planes####
+	SpriteType = {
+		name = "GFX_USA_scout_plane1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_scout_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_scout_plane2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_scout_2.dds"
+	}	
+####Jet Fighter####
+	SpriteType = {
+		name = "GFX_USA_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_jet_fighter_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_USA_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_jet_fighter_2.dds"
+	}
+####Jet Bomber####	
+    SpriteType = {
+        name = "GFX_USA_jet_strategic_bomber1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_jet_strat_bomber_1.dds"
+    }
+    SpriteType = {
+        name = "GFX_USA_jet_tactical_bomber1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_jet_tac_bomber_1.dds"
+    }	
+    SpriteType = {
+        name = "GFX_USA_jet_tactical_bomber2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/USA_jet_tac_bomber_2.dds"
+    }
+####USA/SUPPORT Weapons####
+	SpriteType = { 
+		name = "GFX_USA_infantry_weapons2_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_eqpnt_1.dds" 
+	}
+	SpriteType = { 
+		name = "GFX_USA_improved_infantry_weapons_2_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_eqpnt_2.dds" 
+	}
+	SpriteType = { 
+		name = "GFX_USA_advanced_infantry_weapons2_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_eqpnt_3.dds" 
+	}
+	SpriteType = { 
+		name = "GFX_USA_support_weapons_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_HVY_arms_1.dds" 
+	}
+	SpriteType = { 
+		name = "GFX_USA_support_weapons2_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_HVY_arms_2.dds" 
+	}
+	SpriteType = { 
+		name = "GFX_USA_support_weapons3_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_HVY_arms_3.dds" 
+	}
+	SpriteType = { 
+		name = "GFX_USA_support_weapons4_medium" 
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_HVY_arms_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_AT_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/USA/SUPPORT/USA_AT_2.dds"
+	}		
+####USA howitzer####
+	SpriteType = {
+		name = "GFX_USA_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_Art_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_artillery1_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_Art_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_artillery4_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_Art_3.dds"
+	}	
+####USA AA####
+	SpriteType = {
+		name = "GFX_USA_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_AA_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_antiair2_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_AA_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_antiair5_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_AA_3.dds"
+	}	
+####USA AT####
+	SpriteType = {
+		name = "GFX_USA_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_AT_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_antitank2_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_AT_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_antitank5_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_AT_3.dds"
+	}	
+####USA rocket artillery####
+	SpriteType = {
+		name = "GFX_USA_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_Rocket_Art_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_Rocket_Art_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_motorized_rocket_unit.dds"
+	}		
+####USA submarines####
+	SpriteType = {
+		name = "GFX_USA_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_USA_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_basic_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_submarine4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_cruiser_submarine.dds"
+	}
+####USA destroyer####
+	SpriteType = {
+		name = "GFX_USA_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_USA_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_basic_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_destroyer4.dds"
+	}
+####USA light cruiser####
+	SpriteType = {
+		name = "GFX_USA_early_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_USA_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_basic_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_advanced_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_light_cruiser4.dds"
+	}
+####USA heavy cruiser####
+	SpriteType = {
+		name = "GFX_USA_early_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_1_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_2_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_3_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_advanced_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_4_capital_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_cruiser_coastal_defense_ship_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_cruiser_coastal_defense_ship.dds"
+	}
+####USA battle cruiser####
+	SpriteType = {	
+		name = "GFX_USA_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battlecruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battlecruiser2.dds"
+	}
+####USA battleship####
+	SpriteType = {
+		name = "GFX_USA_early_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_USA_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_basic_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_advanced_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_battleship4.dds"
+	}
+####USA super-heavy battleship####
+	SpriteType = {
+		name = "GFX_USA_heavy_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_battleship1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ship_hull_super_heavy_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_battleship1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavy_battleship2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_heavy_battleship2.dds"
+	}
+####USA carrier####
+	SpriteType = {
+		name = "GFX_USA_ship_hull_carrier_conversion_ca_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier_conversion_ca.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier1.dds"
+	}
+	SpriteType = {	
+		name = "GFX_USA_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier2.dds"
+	}
+		SpriteType = {
+		name = "GFX_USA_basic_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_carrier4.dds"
+	}
+####USA torpedo cruiser####
+	SpriteType = {
+	   name = "GFX_USA_torpedo_cruiser_medium"
+	   texturefile = "gfx/interface/technologies/USA/NAVY/USA_torpedo_cruiser.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_ship_hull_torpedo_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA/NAVY/USA_torpedo_cruiser.dds"
+	}
+####USA rocket interceptor####
+	SpriteType = {
+		name = "GFX_USA_rocket_interceptor_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_rocket_interceptor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_rocket_interceptor_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_rocket_interceptor_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_rocket_interceptor_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/USA/AIR/USA_rocket_interceptor_3.dds"
+	}
+####USA missile####	
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_guided_missile_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_guided_missile_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/USA/USA_guided_missile_3.dds"
+	}	
+}

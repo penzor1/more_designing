@@ -1,0 +1,111 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_imp_medium_spat_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_imp_medium_spat_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_imp_medium_spa_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_adv_heavy_tank_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_imp_heavy_tank_0.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_imp_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_basic_light_tank_4_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/SOV/TANKS/SOV_imp_light_tank_1_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GER/TANKS/GER_basic_light_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/GER/TANKS/GER_basic_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GER/TANKS/GER_imp_light_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/GER/TANKS/GER_interwar_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA/TANKS/FRA_basic_light_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA/TANKS/FRA_pre_war_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA/TANKS/FRA_pre_war_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA/TANKS/FRA_basic_light_tank_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ITA_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA/TANKS/ITA_basic_light_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/USA/TANKS/USA_basic_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG/TANKS/ENG_basic_light_tank.dds"
+	}
+	spriteType = {
+		name = GFX_ENG_light_BAB_camo
+		texturefile = gfx/interface/technologies/ENG/TANKS/ENG_pre_war_light_tank.dds
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/JAP/TANKS/JAP_basic_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/JAP/TANKS/JAP_imp_light_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_JAP_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/JAP/TANKS/JAP_pre_war_medium_tank.dds"
+	}
+	spriteType = {
+		name = GFX_CZE_gwtank
+		texturefile = gfx/interface/technologies/CZE/TANKS/CZE_gwtank.dds
+	}
+	spriteType = {
+		name = GFX_CZE_basic_light_tank
+		texturefile = gfx/interface/technologies/CZE/TANKS/CZE_basic_light_tank.dds
+	}
+	spriteType = {
+		name = GFX_CZE_imp_light_tank
+		texturefile = gfx/interface/technologies/CZE/TANKS/CZE_imp_light_tank_0.dds
+	}
+	spriteType = {
+		name = GFX_ITA_basic_light_tank_medium
+		texturefile = gfx/interface/technologies/ITA/TANKS/ITA_gwtank.dds
+	}		
+}	
+	

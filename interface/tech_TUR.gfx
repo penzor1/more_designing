@@ -1,0 +1,357 @@
+spriteTypes = {
+####Weapons####
+	SpriteType = {
+	    name = "GFX_TUR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_rifle_mauser_M1890.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_rifle_mauser_M38.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER/GER_smg_mp40.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_M1_carbine.dds"
+	}
+####Transport####	
+	SpriteType = {
+		name = "GFX_TUR_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_motorized.dds"
+	}		
+    SpriteType = {
+        name = "GFX_TUR_motorized_equipment_1_medium"
+        texturefile = "gfx/interface/technologies/TUR/TUR_motorized.dds"
+    }		
+	SpriteType = {
+		name = "GFX_TUR_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_apc_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_apc_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_apc_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_transport_plane.dds"	
+	}
+    SpriteType = {
+        name = "GFX_TUR_motorized_rocket_unit_medium"
+        texturefile = "gfx/interface/technologies/GEN/GEN_motorized_rocket_unit.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_armored_car_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_armored_car_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_armored_car_3.dds"		
+	}
+	SpriteType = {
+		name = "GFX_TUR_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_armored_car_4.dds"		
+	}	
+####Amphibious####	
+		SpriteType = {
+		name = "GFX_TUR_amphibious_mechanized_infantry_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_ampf_mot_1.dds"
+		}		
+		SpriteType = {
+		name = "GFX_TUR_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_ampf_mot_2.dds"
+		}
+		SpriteType = {
+		name = "GFX_TUR_amphibious_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_amp_tank_1.dds"
+		}	
+		SpriteType = {
+		name = "GFX_TUR_amphibious_tank_2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_amp_tank_2.dds"
+		}	
+####WW1_Armor####	
+	SpriteType = {
+		name = "GFX_TUR_gwtank_medium"
+		texturefile = "gfx/interface/technologies/PER/PER_ww1_afv.dds"
+	}
+####Basic Light####	
+	SpriteType = {
+		name = "GFX_TUR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_basic_light_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_basic_light_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_light_spa.dds"
+	}
+    SpriteType = {
+		name = "GFX_TUR_basic_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_light_spaa.dds"
+	}
+####Improved Light####		
+	SpriteType = {
+		name = "GFX_TUR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_light_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_improved_light_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_light_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_light_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_light_spaa.dds"
+	}
+####Advanced Light####	
+	SpriteType = {
+		name = "GFX_TUR_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_light_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_light_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_light_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_light_spaa.dds"
+	}
+####Basic Medium####	
+	SpriteType = {
+		name = "GFX_TUR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_medium_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_medium_spaa.dds"
+	}
+####Improved Medium####	
+	SpriteType = {
+		name = "GFX_TUR_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_medium_spaa.dds"
+	}
+####Advanced Medium####	
+	SpriteType = {
+		name = "GFX_TUR_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_medium_spaa.dds"
+	}
+####MBT####	
+	SpriteType = {
+		name = "GFX_TUR_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_mbt.dds"
+	}
+####Basic Heavy####	
+	SpriteType = {
+		name = "GFX_TUR_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_heavy_tank.dds"
+	}		
+	SpriteType = {
+		name = "GFX_TUR_basic_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_heavy_spat.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_basic_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_heavy_spa.dds"
+	}		
+	SpriteType = {
+		name = "GFX_TUR_basic_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_basic_heavy_spaa.dds"
+	}
+####Improved Heavy####	
+	SpriteType = {
+		name = "GFX_TUR_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_improved_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_imp_heavy_spaa.dds"
+	}
+####Advanced Heavy####	
+	SpriteType = {
+		name = "GFX_TUR_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_heavy_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_advanced_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_advanced_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/TUR/TUR_adv_heavy_spaa.dds"
+	}
+####Super Heavy####	
+	SpriteType = {
+		name = "GFX_TUR_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_super_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_super_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_super_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spaa.dds"
+	}
+####Fighter####	
+	SpriteType = {
+		name = "GFX_TUR_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_fighter_0.dds"
+		}	
+	SpriteType = {
+		name = "GFX_TUR_fighter1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_fighter_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_TUR_fighter2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_fighter3_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_fighter_3.dds"
+	}
+####CAS####	
+	SpriteType = {
+		name = "GFX_TUR_CAS1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_CAS_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_CAS2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_CAS_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_CAS3_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_CAS_3.dds"
+	}	
+####Naval Bomber####	
+	SpriteType = {
+		name = "GFX_TUR_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_nav_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_TUR_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_nav_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_TUR_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_nav_3.dds"
+	}
+####Heavy Fighter####	
+	SpriteType = {
+		name = "GFX_TUR_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_heavy_fighter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_heavy_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_heavy_fighter_3.dds"
+	}
+####Tac Bomber####	
+	SpriteType = {
+		name = "GFX_TUR_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_bomber_0.dds"
+	}		
+	SpriteType = {
+		name = "GFX_TUR_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_bomber_1.dds"
+	}			
+	SpriteType = {
+		name = "GFX_TUR_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_bomber_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_TUR_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_bomber_3.dds"
+	}	
+####Strat Bomber####	
+    SpriteType = {
+		name = "GFX_TUR_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_strat_1.dds"
+	}	
+    SpriteType = {
+		name = "GFX_TUR_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_strat_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_TUR_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_strat_3.dds"
+	}
+####Jet Fighter####
+	
+	SpriteType = {
+		name = "GFX_TUR_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_jet_fighter_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_TUR_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/TUR/AIR/TUR_jet_fighter_2.dds"
+	}	
+}	

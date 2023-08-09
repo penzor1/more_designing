@@ -57,7 +57,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "icon_selection_container"
 			position = { x=310 y=80 }
-			size = { width = 154 height = 56 }
+			size = { width = 210 height = 84 }
 
 			background = {
 				name = "background"

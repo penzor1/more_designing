@@ -1,0 +1,376 @@
+spriteTypes = {
+####Weapons####
+	SpriteType = {
+	    name = "GFX_FIN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_rifle_mosin_91.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_rifle_mosin_38.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_smg_kp31.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_smg_kp_44.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_armored_car_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_armored_car_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_armored_car_3.dds"		
+	}
+	SpriteType = {
+		name = "GFX_FIN_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_armored_car_4.dds"		
+	}
+	SpriteType = {
+		name = "GFX_FIN_amphibious_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_amp_tank_1.dds"
+	}	
+####Transport####	
+	SpriteType = {
+		name = "GFX_FIN_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_artillery_truck_international_k7.dds"
+	}
+    SpriteType = {
+        name = "GFX_FIN_motorized_equipment_1_medium"
+        texturefile = "gfx/interface/technologies/FIN/FIN_artillery_truck_international_k7.dds"
+    }
+####WW1_Armor####	
+	SpriteType = {
+		name = "GFX_FIN_gwtank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_light_tank_koiras.dds"
+	}
+####Fighter####	
+	SpriteType = {
+		name = "GFX_FIN_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_0.dds"
+		}	
+	SpriteType = {
+		name = "GFX_FIN_fighter1_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_fighter2_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_fighter3_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_3.dds"
+	}
+####CAS####	
+	SpriteType = {
+		name = "GFX_FIN_CAS1_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_CAS_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_CAS2_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_CAS_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_CAS3_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_CAS_3.dds"
+	}	
+####Naval Bomber####	
+	SpriteType = {
+		name = "GFX_FIN_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_nav_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_nav_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_nav_3.dds"
+	}
+####Heavy Fighter####	
+	SpriteType = {
+		name = "GFX_FIN_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_heavy_fighter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_heavy_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_heavy_fighter_3.dds"
+	}
+####Tac Bomber####	
+	SpriteType = {
+		name = "GFX_FIN_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_bomber_0.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_bomber_1.dds"
+	}			
+	SpriteType = {
+		name = "GFX_FIN_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FIN/AIR/FIN_bomber_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_FIN_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_bomber_3.dds"
+	}	
+####Strat Bomber####	
+    SpriteType = {
+		name = "GFX_FIN_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_1.dds"
+	}	
+    SpriteType = {
+		name = "GFX_FIN_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_FIN_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_3.dds"
+	}
+####Basic Light####	
+	SpriteType = {
+		name = "GFX_FIN_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_basic_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_basic_light_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_basic_light_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_spa.dds"
+	}
+    SpriteType = {
+		name = "GFX_FIN_basic_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_spaa.dds"
+	}
+####Improved Light####		
+	SpriteType = {
+		name = "GFX_FIN_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_imp_light_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_improved_light_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_light_art_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_imp_light_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_light_spaa.dds"
+	}
+####Advanced Light####	
+	SpriteType = {
+		name = "GFX_FIN_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_adv_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_light_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_light_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_spaa.dds"
+	}
+####Basic Medium####	
+	SpriteType = {
+		name = "GFX_FIN_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_basic_medium_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_spaa.dds"
+	}
+####Improved Medium####	
+	SpriteType = {
+		name = "GFX_FIN_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_imp_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_imp_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_imp_medium_spaa.dds"
+	}
+####Advanced Medium####	
+	SpriteType = {
+		name = "GFX_FIN_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_adv_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_spaa.dds"
+	}
+####MBT####	
+	SpriteType = {
+		name = "GFX_FIN_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_mbt.dds"
+	}
+####Basic Heavy####	
+	SpriteType = {
+		name = "GFX_FIN_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_basic_heavy_tank.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_basic_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_spat.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_basic_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_spa.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_basic_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_spaa.dds"
+	}
+####Improved Heavy####	
+	SpriteType = {
+		name = "GFX_FIN_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_imp_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_spaa.dds"
+	}
+####Advanced Heavy####	
+	SpriteType = {
+		name = "GFX_FIN_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_adv_heavy_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_advanced_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_spaa.dds"
+	}
+####Super Heavy####	
+	SpriteType = {
+		name = "GFX_FIN_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FIN/FIN_super_heavy_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_super_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_super_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_super_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spaa.dds"
+	}
+#####Airframes#####
+
+	SpriteType = {
+		name = "GFX_FIN_iw_small_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_basic_small_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_improved_small_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_advanced_small_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_fighter_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_modern_small_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_jet_fighter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_iw_medium_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_bomber_0.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_basic_medium_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_bomber_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_improved_medium_airframe_medium"
+        texturefile = "gfx/interface/technologies/FIN/AIR/FIN_bomber_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_advanced_medium_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_bomber_3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_modern_medium_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_jet_tac_bomber_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_iw_large_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_basic_large_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FIN_improved_large_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FIN_advanced_large_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_strat_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_modern_large_airframe_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_jet_strat_bomber.dds"
+	}	
+}	

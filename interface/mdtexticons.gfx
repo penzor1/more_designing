@@ -3,11 +3,6 @@ spriteTypes = {
 ###TEXT_ICONS###
 ###motorized_chassis###
 	SpriteType = {
-		name = "GFX_motorized_texticon"
-		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
-		legacy_lazy_load = no
-	}
-	SpriteType = {
 		name = "GFX_motorized_chassis_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
 		legacy_lazy_load = no
@@ -39,11 +34,6 @@ spriteTypes = {
 	}
 ###mechanized_chassis###
 	SpriteType = {
-		name = "GFX_mechanized_texticon"
-		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
-		legacy_lazy_load = no
-	}
-	SpriteType = {
 		name = "GFX_mechanized_chassis_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
 		legacy_lazy_load = no
@@ -74,11 +64,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 ###armored_car_chassis
-	SpriteType = {
-		name = "GFX_armored_car_texticon"
-		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_7.dds"
-		legacy_lazy_load = no
-	}
 	SpriteType = {
 		name = "GFX_armored_car_chassis_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_7.dds"

@@ -1,0 +1,693 @@
+spriteTypes = {
+####Weapons####
+	SpriteType = {
+	    name = "GFX_POR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POR/POR_rifle_espingarda_m04.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/POR/POR_rifle_espingarda_m04_39.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/HOL/HOL_smg_mp_28.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/POR/POR_smg_FBP_m_948.dds"
+	}
+####Transport####	
+	SpriteType = {
+		name = "GFX_POR_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_motorized.dds"
+	}		
+    SpriteType = {
+        name = "GFX_POR_motorized_equipment_1_medium"
+        texturefile = "gfx/interface/technologies/GEN/GEN_motorized.dds"
+    }		
+	SpriteType = {
+		name = "GFX_POR_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_apc_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_apc_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_apc_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/POR/POR_transport_plane.dds"	
+	}
+    SpriteType = {
+        name = "GFX_POR_motorized_rocket_unit_medium"
+        texturefile = "gfx/interface/technologies/GEN/GEN_motorized_rocket_unit.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_armored_car_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_armored_car_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_armored_car_3.dds"		
+	}
+	SpriteType = {
+		name = "GFX_POR_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_armored_car_4.dds"		
+	}	
+####Amphibious####	
+	SpriteType = {
+		name = "GFX_POR_amphibious_mechanized_infantry_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_ampf_mot_1.dds"
+		}		
+	SpriteType = {
+		name = "GFX_POR_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_ampf_mot_2.dds"
+		}
+	SpriteType = {
+		name = "GFX_POR_amphibious_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_amp_tank_1.dds"
+		}	
+	SpriteType = {
+		name = "GFX_POR_amphibious_tank_2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_amp_tank_2.dds"
+		}	
+####WW1_Armor####	
+	SpriteType = {
+		name = "GFX_POR_gwtank_medium"
+		texturefile = "gfx/interface/technologies/PER/PER_ww1_afv.dds"
+	}
+####Basic Light####	
+	SpriteType = {
+		name = "GFX_POR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_light_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_light_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_spa.dds"
+	}
+    SpriteType = {
+		name = "GFX_POR_basic_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_light_spaa.dds"
+	}
+####Improved Light####		
+	SpriteType = {
+		name = "GFX_POR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_light_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_improved_light_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_light_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_light_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_light_spaa.dds"
+	}
+####Advanced Light####	
+	SpriteType = {
+		name = "GFX_POR_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_light_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_light_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_light_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_light_spaa.dds"
+	}
+####Basic Medium####	
+	SpriteType = {
+		name = "GFX_POR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_medium_spaa.dds"
+	}
+####Improved Medium####	
+	SpriteType = {
+		name = "GFX_POR_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_medium_spaa.dds"
+	}
+####Advanced Medium####	
+	SpriteType = {
+		name = "GFX_POR_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_medium_spaa.dds"
+	}
+####MBT####	
+	SpriteType = {
+		name = "GFX_POR_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG/ENG_mbt.dds"
+	}
+####Basic Heavy####	
+	SpriteType = {
+		name = "GFX_POR_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_tank.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_basic_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_spat.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_spa.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_basic_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_basic_heavy_spaa.dds"
+	}
+####Improved Heavy####	
+	SpriteType = {
+		name = "GFX_POR_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_imp_heavy_spaa.dds"
+	}
+####Advanced Heavy####	
+	SpriteType = {
+		name = "GFX_POR_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_advanced_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_adv_heavy_spaa.dds"
+	}
+####Super Heavy####	
+	SpriteType = {
+		name = "GFX_POR_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_super_heavy_td_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spat.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_super_heavy_art_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spa.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_super_heavy_spaa_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_super_heavy_spaa.dds"
+	}
+####Fighter####	
+	SpriteType = {
+		name = "GFX_POR_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_fighter_0.dds"
+		}	
+	SpriteType = {
+		name = "GFX_POR_fighter1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_fighter_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_fighter2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_fighter3_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_fighter_3.dds"
+	}
+####CAS####	
+	SpriteType = {
+		name = "GFX_POR_CAS1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_CAS_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_CAS2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_CAS_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_CAS3_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_CAS_3.dds"
+	}	
+####Naval Bomber####	
+	SpriteType = {
+		name = "GFX_POR_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_nav_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_nav_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_nav_3.dds"
+	}
+####Heavy Fighter####	
+	SpriteType = {
+		name = "GFX_POR_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_heavy_fighter_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_heavy_fighter_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_heavy_fighter_3.dds"
+	}
+####Tac Bomber####	
+	SpriteType = {
+		name = "GFX_POR_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_bomber_0.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_bomber_1.dds"
+	}			
+	SpriteType = {
+		name = "GFX_POR_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_bomber_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_POR_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_bomber_3.dds"
+	}	
+####Strat Bomber####	
+    SpriteType = {
+		name = "GFX_POR_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_strat_1.dds"
+	}	
+    SpriteType = {
+		name = "GFX_POR_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_strat_2.dds"
+	}			
+	SpriteType = {
+		name = "GFX_POR_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_strat_3.dds"
+	}
+####CV Fighter####	
+	SpriteType = {
+		name = "GFX_POR_cv_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_0.dds"
+		}	
+    SpriteType = {
+        name = "GFX_POR_cv_fighter1_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_1.dds"
+    }
+    SpriteType = {
+        name = "GFX_POR_cv_fighter2_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_2.dds"
+    }
+    SpriteType = {
+        name = "GFX_POR_cv_fighter3_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_3.dds"
+    }
+####CV Nav Bomber####	
+    SpriteType = {
+        name = "GFX_POR_cv_naval_bomber1_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_1.dds"
+    }	
+    SpriteType = {
+        name = "GFX_POR_cv_naval_bomber2_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_2.dds"
+    }		
+	SpriteType = {
+        name = "GFX_POR_cv_naval_bomber3_medium"
+        texturefile = "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_3.dds"
+    }	
+#Generic submarines#
+	SpriteType = {
+		name = "GFX_POR_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_POR_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/submarine4.dds"
+	}	
+#Generic destroyer#
+	SpriteType = {
+		name = "GFX_POR_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_POR_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/destroyer4.dds"
+	}	
+#Generic light cruiser#
+	SpriteType = {
+		name = "GFX_POR_early_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_POR_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_1_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_basic_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_2_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_3_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_advanced_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_4_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/light_cruiser4.dds"
+	}	
+#Generic heavy cruiser#
+	SpriteType = {
+		name = "GFX_POR_early_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_early_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_1_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_2_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_improved_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_3_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_advanced_light_cruiser_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_cruiser_4_capital_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_cruiser4.dds"
+	}	
+#Generic battle cruiser#
+	SpriteType = {	
+		name = "GFX_POR_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battlecruiser1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battlecruiser2.dds"
+	}
+	
+#Generic battleship#
+	SpriteType = {
+		name = "GFX_POR_early_battleship_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship1.dds"
+	}	
+	SpriteType = {	
+		name = "GFX_POR_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_battleship_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_basic_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_battleship_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_POR_advanced_battleship_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/battleship4.dds"
+	}
+#Generic super-heavy battleship#
+	SpriteType = {
+		name = "GFX_POR_heavy_battleship_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_battleship1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_ship_hull_super_heavy_1_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_battleship1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_POR_heavy_battleship2_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/heavy_battleship2.dds"
+	}
+	
+#Generic carrier#
+	SpriteType = {
+		name = "GFX_POR_ship_hull_carrier_conversion_ca_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier_conversion_ca.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier1.dds"
+	}
+	SpriteType = {	
+		name = "GFX_POR_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier2.dds"
+	}
+		SpriteType = {
+		name = "GFX_POR_basic_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_improved_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier4.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_advanced_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/GEN/NAVY/carrier4.dds"
+	}
+#Generic howitzer#
+	SpriteType = {
+		name = "GFX_POR_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_Art_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_artillery1_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_Art_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_artillery4_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_Art_3.dds"
+	}	
+#Generic AA#
+	SpriteType = {
+		name = "GFX_POR_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_AA_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_antiair2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_AA_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_antiair5_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_AA_3.dds"
+	}	
+#Generic AT#
+	SpriteType = {
+		name = "GFX_POR_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_AT_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_antitank2_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_AT_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_POR_antitank5_medium"
+		texturefile = "gfx/interface/technologies/GEN/GEN_AT_3.dds"
+	}
+####Scout Planes####		
+	SpriteType = {
+		name = "GFX_POR_scout_plane1_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_scout_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POR_scout_plane2_medium"
+		texturefile = "gfx/interface/technologies/GEN/AIR/GEN_scout_2.dds"
+	}
+####Jet Fighter####
+	SpriteType = {
+		name = "GFX_POR_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_jet_fighter_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_POR_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/POR/AIR/POR_jet_fighter_2.dds"
+	}		
+}	
