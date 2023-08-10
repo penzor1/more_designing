@@ -234,11 +234,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/mec/generic_mechanized_1_armor.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_TM_mechanized_chassis_1_engine_type_slot"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/mec/generic_mechanized_1_engine.dds"
-		legacy_lazy_load = no
-	}
+#	spriteType = {
+#		name = "GFX_TM_mechanized_chassis_1_engine_type_slot"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/mec/generic_mechanized_1_engine.dds"
+#		legacy_lazy_load = no
+#	}
 	spriteType = {
 		name = "GFX_TM_mechanized_chassis_1_main_armament_slot"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/mec/generic_mechanized_1_gun.dds"
@@ -810,22 +810,22 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/heavy/fra_heavy_tank_2_turret.dds"
 		legacy_lazy_load = no
 	}
-###tank_chassis_super_heavy_tank_fra###Char_2C ###########################################missings
+###tank_chassis_super_heavy_tank_0_fra###FCM_Char_2C###########################################missings
 	spriteType = {
 		name = "GFX_TC_super_heavy_tank_chassis_fra"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/superheavy/fra_super_heavy_tank_0_blueprint.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_TM_super_heavy_tank_chassis_armor_type_slot_fra"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/superheavy/fra_super_heavy_tank_0_armor.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_super_heavy_tank_chassis_engine_type_slot_fra"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/superheavy/fra_super_heavy_tank_0_engine.dds"
-		legacy_lazy_load = no
-	}
+#	spriteType = {
+#		name = "GFX_TM_super_heavy_tank_chassis_armor_type_slot_fra"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/superheavy/fra_super_heavy_tank_0_armor.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_super_heavy_tank_chassis_engine_type_slot_fra"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/superheavy/fra_super_heavy_tank_0_engine.dds"
+#		legacy_lazy_load = no
+#	}
 	spriteType = {
 		name = "GFX_TM_super_heavy_tank_chassis_main_armament_slot_fra"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/fra/superheavy/fra_super_heavy_tank_0_gun.dds"
@@ -975,26 +975,26 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 ###Panzer_II_L###
-	spriteType = {
-		name = "GFX_TC_light_tank_chassis_2_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_light_tank_chassis_2_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_light_tank_chassis_2_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_light_tank_chassis_2_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_turret.dds"
-		legacy_lazy_load = no
-	}
+#	spriteType = {
+#		name = "GFX_TC_light_tank_chassis_2_ger"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_blueprint.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_light_tank_chassis_2_main_armament_slot_ger"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_gun.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_light_tank_chassis_2_suspension_type_slot_ger"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_suspension.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_light_tank_chassis_2_turret_type_slot_ger"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_02_turret.dds"
+#		legacy_lazy_load = no
+#	}
 ###Ostvind###
 	spriteType = {
 		name = "GFX_TC_light_tank_aa_chassis_2_ger"
@@ -1163,32 +1163,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/light/ger_light_tank_td_03_turret.dds"
 		legacy_lazy_load = no
 	}
-###tank_chassis_medium_tank_00_ger###Neubaufahrzeug###
-	spriteType = {
-		name = "GFX_TC_medium_tank_chassis_00_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_00_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_00_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_00_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_00_turret.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_special_type_slot_2_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_00_special_slot_1.dds"
-		legacy_lazy_load = no
-	}
 ###tank_chassis_medium_tank_0_ger###Grosstracktor###
 	spriteType = {
 		name = "GFX_TC_medium_tank_chassis_0_ger"
@@ -1215,7 +1189,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_0_special_slot_1.dds"
 		legacy_lazy_load = no
 	}
-###tank_chassis_medium_tank_1_ger###Panzer_III_ausf B###
+###tank_chassis_medium_tank_1_ger###Panzer_III_ausf_B###
 	spriteType = {
 		name = "GFX_TC_medium_tank_chassis_1_ger"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_01_blueprint.dds"
@@ -1281,6 +1255,33 @@ spriteTypes = {
 ###tank_chassis_medium_tank_art_1_ger###StuH_42G 
 	spriteType = {
 		name = "GFX_TC_medium_tank_artillery_chassis_1_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_1_blueprint.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_artillery_chassis_1_main_armament_slot_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_1_gun.dds"
+		legacy_lazy_load = no
+	
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_artillery_chassis_1_suspension_type_slot_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_1_suspension.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_artillery_chassis_1_turret_type_slot_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_1_turret.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_artillery_chassis_1_special_type_slot_2_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_1_special_slot_2.dds"
+		legacy_lazy_load = no
+	}
+###infanteriegeschutz-33b###
+	spriteType = {
+		name = "GFX_TC_medium_tank_artillery_chassis_1_ger"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_1_blueprint.dds"
 		legacy_lazy_load = no
 	}
@@ -1288,7 +1289,6 @@ spriteTypes = {
 		name = "GFX_TM_medium_tank_artillery_chassis_1_main_armament_slot_ger"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_1_gun.dds"
 		legacy_lazy_load = no
-	
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_1_suspension_type_slot_ger"
@@ -1300,51 +1300,25 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_1_turret.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_1_special_type_slot_2_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_1_special_slot_2.dds"
-		legacy_lazy_load = no
-	}
-###infanteriegeschutz-33b###
-	spriteType = {
-		name = "GFX_TC_medium_tank_artillery_chassis_1_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_01_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_1_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_01_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_1_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_01_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_1_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_01_turret.dds"
-		legacy_lazy_load = no
-	}
-###Stug_III###
+###Stug_III_F###
 	spriteType = {
 		name = "GFX_TC_medium_tank_destroyer_chassis_1_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_01_blueprint.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_1_blueprint.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_1_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_1_gun.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_1_gun.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_1_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_1_suspension.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_1_suspension.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_1_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_1_turret.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_1_turret.dds"
 		legacy_lazy_load = no
 	}
 ###Pz_IV_G2###
@@ -1392,64 +1366,64 @@ spriteTypes = {
 ###tank_chassis_medium_tank_art_2_ger###Hummel###
 	spriteType = {
 		name = "GFX_TC_medium_tank_artillery_chassis_2_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_2_blueprint.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_2_blueprint.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_2_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_2_gun.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_2_gun.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_2_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_2_suspension.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_2_suspension.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_2_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_2_turret.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_2_turret.dds"
 		legacy_lazy_load = no
 	}
-###tank_chassis_medium_tank_art_02_ger###Brummbar###
+###tank_chassis_medium_tank_ag_2_ger###Brummbar###
 	spriteType = {
-		name = "GFX_TC_medium_tank_artillery_chassis_3_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_02_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_3_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_02_gun.dds"
+		name = "GFX_TC_medium_tank_assault_gun_chassis_3_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_2_blueprint.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_3_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_02_suspension.dds"
+		name = "GFX_TM_medium_tank_assault_gun_chassis_3_main_armament_slot_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_2_gun.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_TM_medium_tank_artillery_chassis_3_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_02_turret.dds"
+		name = "GFX_TM_medium_tank_assault_gun_chassis_3_suspension_type_slot_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_2_suspension.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_assault_gun_chassis_3_turret_type_slot_ger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_ag_2_turret.dds"
 		legacy_lazy_load = no
 	}
 ###Jagdpanzer_IV###
 	spriteType = {
 		name = "GFX_TC_medium_tank_destroyer_chassis_2_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_02_blueprint.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_02_blueprint.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_2_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_02_gun.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_02_gun.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_2_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_02_suspension.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_02_suspension.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_2_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_02_turret.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_02_turret.dds"
 		legacy_lazy_load = no
 	}
 ###tank_chassis_medium_tank_td_2_ger###Jagdpanzer_IV/V###
@@ -1518,43 +1492,43 @@ spriteTypes = {
 ###Grille_12###
 	spriteType = {
 		name = "GFX_TC_medium_tank_artillery_chassis_3_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_3_blueprint.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_3_blueprint.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_3_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_3_gun.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_3_gun.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_3_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_3_suspension.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_3_suspension.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_artillery_chassis_3_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_artillery_3_turret.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_art_3_turret.dds"
 		legacy_lazy_load = no
 	}
 ###tank_chassis_medium_tank_td_3_ger###Jagdpanther###
 	spriteType = {
 		name = "GFX_TC_medium_tank_destroyer_chassis_3_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_3_blueprint.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_3_blueprint.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_3_main_armament_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_3_gun.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_3_gun.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_3_suspension_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_3_suspension.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_3_suspension.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_TM_medium_tank_destroyer_chassis_3_turret_type_slot_ger"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_destroyer_3_turret.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/ger/medium/ger_medium_tank_td_3_turret.dds"
 		legacy_lazy_load = no
 	}
 ###tank_chassis_heavy_tank_0_ger###Neubaufahrzeug###
@@ -3629,27 +3603,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_0_turret.dds"
 		legacy_lazy_load = no
 	}
-###tank_chassis_medium_tank_1_usa###M2_Medium_Tank###
-	spriteType = {
-		name = "GFX_TC_medium_tank_chassis_1_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_01_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_1_main_armament_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_01_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_1_suspension_type_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_01_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_1_turret_type_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_01_turret.dds"
-		legacy_lazy_load = no
-	}
 ###tank_chassis_medium_tank_1_usa###M3 LEE ####################################################missings
 	spriteType = {
 		name = "GFX_TC_medium_tank_chassis_1_usa"
@@ -3740,26 +3693,26 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 ###tank_chassis_heavy_tank_02_usa###M4E5_Jumbo_Sherman ##########################################################################missings
-	spriteType = {
-		name = "GFX_TC_heavy_tank_chassis_2_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_heavy_tank_chassis_2_main_armament_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_heavy_tank_chassis_2_suspension_type_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_heavy_tank_chassis_2_turret_type_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_turret.dds"
-		legacy_lazy_load = no
-	}
+#	spriteType = {
+#		name = "GFX_TC_heavy_tank_chassis_2_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_blueprint.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_heavy_tank_chassis_2_main_armament_slot_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_gun.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_heavy_tank_chassis_2_suspension_type_slot_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_suspension.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_heavy_tank_chassis_2_turret_type_slot_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_turret.dds"
+#		legacy_lazy_load = no
+#	}
 #	spriteType = {
 #		name = "GFX_TM_heavy_tank_chassis_2_special_type_slot_2_usa"
 #		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/heavy/usa_heavy_tank_02_chassis_special_type_slot_2.dds"

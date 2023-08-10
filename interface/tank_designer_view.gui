@@ -56,7 +56,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "icon_selection_container"
-			position = { x=310 y=80 }
+			position = { x=310 y=55 }
 			size = { width = 210 height = 84 }
 
 			background = {
@@ -348,7 +348,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "equipment_upgrade_2"
-				position = { x = 700 y = 295 }
+				position = { x = 670 y = 295 }
 				size = { width = 130 height = 50 } 
 
 				buttonType = {
@@ -389,7 +389,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "equipment_upgrade_3"
-				position = { x = 840 y = 295 }
+				position = { x = 540 y = 295 }
 				size = { width = 130 height = 50 } 
 
 				buttonType = {
@@ -473,13 +473,13 @@ guiTypes = {
 		iconType = {
 			name = "tag_icon_bg"
 			spriteType = "GFX_role_icon_bg"
-			position = { x = 465 y = 80 }
+			position = { x = 550 y = 250 }
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "niche_button"
-			position = { x = 474 y = 85 }
+			position = { x = 558 y = 256 }
 			spriteType = "GFX_niche_icon_strip"
 			clicksound = "ui_tank_designer_company_icon"
 			pdx_tooltip = "DESIGNER_SELECT_NICHE"
@@ -489,7 +489,7 @@ guiTypes = {
 		iconType = {
 			name = "design_company_icon"
 			spriteType = "GFX_idea_porsche"
-			position = { x = 550 y = 250 }
+			position = { x = 550 y = 300 }
 		}
 
 		# right hand side stats
@@ -604,7 +604,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "select3d_button"
-			position = { x=930 y=270 }
+			position = { x=935 y=245 }
 			size = { x=504 y=22 }
 			font = "hoi_16mbs"				
 			buttontext = "SELECT_3D_MODEL"
@@ -744,7 +744,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "niche_icon_selector"
-			position = { x=515 y=141 }
+			position = { x=545 y=250 }
 			size = { width=390 height=55 }
 			
 			background = {
@@ -900,7 +900,7 @@ guiTypes = {
 		# chassi name
 		instantTextboxType = {
 			name = "blueprint_type_name"
-			position = { x = 20 y = 55 }
+			position = { x = -90 y = 55 }
 			font = "hoi4_typewriter16"
 			maxWidth = 500
 			maxHeight = 16
@@ -933,7 +933,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "role_text"
-				position = { x = 45 y = 7 }
+				position = { x = 35 y = 7 }
 				font = "hoi_18mbs"
 				maxWidth = 210
 				maxHeight = 18
