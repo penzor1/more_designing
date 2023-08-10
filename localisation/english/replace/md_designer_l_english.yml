@@ -1,13 +1,13 @@
 ﻿l_english:
-### ROLES ###
-### OVERWRITE ###
-	tank_designer_amphibious:0 "Amphibious Vehicle"
-	tank_designer_anti_air:0 "Self-Propelled Anti-Air"
-	tank_designer_artillery:0 "Self-Propelled Artillery"
-	tank_designer_anti_tank:0 "Self-Propelled Anti-Tank"
-	tank_designer_rocket:0 "Self-Propelled Rocket Artillery"
-	tank_designer_flame:1 "Self-Propelled Flamer"
-### NEW ###
+###ROLES###
+###OVERWRITE###
+	tank_designer_amphibious:0 "Amphibious"
+	tank_designer_anti_air:0 "Anti-Air"
+	tank_designer_artillery:0 "Artillery"
+	tank_designer_anti_tank:0 "Anti-Tank"
+	tank_designer_rocket:0 "Rocket Artillery"
+	tank_designer_flame:1 "Flamer"
+###NEW###
 	tank_designer_light_motorized_chassis:0 "Light Motorized Vehicle"
 	tank_designer_light_motorized_chassis_short:0 "L MOT"
 	tank_designer_light_motorized_chassis_role_disallowed:0 "Remove the module that forbids the §H$tank_designer_light_motorized_chassis$§! role to be able to switch to it."
@@ -20,8 +20,8 @@
 	tank_designer_armored_car_chassis:0 "Armored Car"
 	tank_designer_armored_car_chassis_short:0 "AC"
 	tank_designer_armored_car_chassis_role_disallowed:0 "Remove the module that forbids the §H$tank_designer_armored_car_chassis$§! role to be able to switch to it."
-### CHASSIS ###
-### NEW ###
+###CHASSIS###
+###NEW###
 	light_motorized_chassis:0 "Light Motorized Vehicle Chassis"
 	light_motorized_chassis_short:0 "LMOT"
 	light_motorized_chassis_desc:0 "$light_motorized_chassis_desc$"

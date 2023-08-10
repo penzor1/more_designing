@@ -3477,6 +3477,27 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 ###tank_chassis_light_tank_0_usa###T1_CUNNINGHAM###
+###tank_chassis_medium_tank_00_usa###Combat_Car_T4###
+#	spriteType = {
+#		name = "GFX_TC_medium_tank_chassis_0_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_blueprint.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_medium_tank_chassis_0_main_armament_slot_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_gun.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_medium_tank_chassis_0_suspension_type_slot_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_suspension.dds"
+#		legacy_lazy_load = no
+#	}
+#	spriteType = {
+#		name = "GFX_TM_medium_tank_chassis_0_turret_type_slot_usa"
+#		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_turret.dds"
+#		legacy_lazy_load = no
+#	}
 ###tank_chassis_light_tank_1_usa###M2_Light_Tank###
 	spriteType = {
 		name = "GFX_TC_light_tank_chassis_1_usa"
@@ -3559,27 +3580,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TM_light_tank_chassis_3_turret_type_slot_usa"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/light/usa_light_tank_3_turret.dds"
-		legacy_lazy_load = no
-	}
-###tank_chassis_medium_tank_00_usa###Combat_Car_T4###
-	spriteType = {
-		name = "GFX_TC_medium_tank_chassis_0_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_blueprint.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_main_armament_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_suspension_type_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_medium_tank_chassis_0_turret_type_slot_usa"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/usa/medium/usa_medium_tank_00_turret.dds"
 		legacy_lazy_load = no
 	}
 ###tank_chassis_medium_tank_0_usa###M2_Medium_Tank###

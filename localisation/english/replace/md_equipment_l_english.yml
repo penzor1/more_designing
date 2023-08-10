@@ -1,10 +1,10 @@
 ﻿l_english:
- ### EQUIPMENTS ###
- ### OVERWRITES ###
-	tank_nsb_engine_upgrade:0 "Horsepower"
-	tank_nsb_engine_upgrade_desc:0 "Approximately 50hp of engine horsepower per level."
-	tank_nsb_armor_upgrade:0 "Thickness"
-	tank_nsb_armor_upgrade_desc:0 "Approximately 10mm of RHA-grade steel per level."
+###EQUIPMENTS###
+###OVERWRITES###
+#	tank_nsb_engine_upgrade:0 "Horsepower"
+#	tank_nsb_engine_upgrade_desc:0 "Approximately 50hp of engine horsepower per level."
+#	tank_nsb_armor_upgrade:0 "Thickness"
+#	tank_nsb_armor_upgrade_desc:0 "Approximately 10mm of RHA-grade steel per level."
 	motorized_equipment:0 "Motorized Vehicle"
 	motorized_equipment_short:0 "Truck"
 #	motorized_equipment_desc:0 "$motorized_equipment_desc$"
@@ -35,16 +35,18 @@
 #	armored_car_equipment_2:0 "Improved Armored Car"
 	armored_car_equipment_2_short:0 "AC III"
 #	armored_car_equipment_2_desc:0 "$armored_car_equipment_2_desc$"
- ### NEW ###
-	tank_nsb_gun_upgrade:0 "Firepower"
+###NEW###
+	tank_nsb_gun_upgrade:0 "Gun"
 	tank_nsb_gun_upgrade_desc:0 "Approximately 10mm of gun diameter per level."
+#	tank_nsb_ammo_upgrade:0 "Ammo"
+#	tank_nsb_ammo_upgrade_desc:0 "Approximately 10mm of gun diameter per level."
 	tank_nsb_optics_upgrade:0 "Optics"
 	tank_nsb_optics_upgrade_desc:0 "Optics"
-	tank_nsb_cost_upgrade:0 "Cost-Cutting"
-	tank_nsb_cost_upgrade_desc:0 "Cost-Cutting"
-	tank_nsb_reliability_upgrade:0 "Reliability"
-	tank_nsb_reliability_upgrade_desc:0 "Reliability"
-#GENERIC
+	tank_nsb_cost_upgrade:0 "Cost"
+	tank_nsb_cost_upgrade_desc:0 "Cost"
+	tank_nsb_reliability_upgrade:0 "Quality"
+	tank_nsb_reliability_upgrade_desc:0 "Quality"
+###GENERIC###
 	light_motorized_equipment:0 "Light Motorized Vehicle"
 	light_motorized_equipment_short:0 "Car"
 	light_motorized_equipment_desc:0 "$light_motorized_equipment_desc$"
@@ -435,4 +437,5 @@
 	modern_tank_amphibious_equipment_1:0 "Modern Amphibious Tank"
 	modern_tank_amphibious_equipment_1_short:0 "Amphibious MBT I"
 	modern_tank_amphibious_equipment_1_desc:0 "$modern_tank_amphibious_equipment_1_desc$"
-#NATIVE
+###NATIONAL###
+#eof
